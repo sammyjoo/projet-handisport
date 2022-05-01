@@ -1,0 +1,117 @@
+/*-- PAGE HANDISPORTS--*/
+
+body{
+    max-width: 1425px;
+    background: #24386B;
+    margin: 0;
+    
+}
+body h1{
+    font-size: 4rem;
+}
+body h2{
+    font-size: 2.5rem;
+    font-family: gobold;
+    font-style: italic;
+    color: white;
+
+    margin-left: 60px;
+
+}
+Body h3{
+    font-size: 2rem;
+}
+body p{
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.liste_handisport{
+    margin-left: 400px;
+}
+
+.rang{
+    display: flex;
+}
+
+.liste_handisport button{
+
+    cursor: pointer;
+
+    height: 200px;
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+
+}
+
+.liste_handisport p{
+    font-family: Corpid E1s Cd;
+    font-size: 20px;
+
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.liste_handisport img{
+    
+    width: 80px;
+}
+
+.special img{
+    width: 150px;
+}
+
+
+.rang_final{
+    display: flex;
+
+}
+
+.box{
+    background: white;
+    width: 308px;
+    height: 220px;
+    margin-left:20px ;
+    margin-bottom: 20px;
+
+    border: none;
+    border-radius: 20px;
+}
+
+.box img{
+width: 110px;
+
+margin-left: 90px;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+.box button{
+    cursor: pointer;
+
+    height: 50px;
+    width: 250px;
+
+
+    background: #E40000;
+    border: none;
+    border-radius: 30px;
+
+    font-family: Corpid E1s Cd light;
+    font-size: 15px;
+    color: white;
+
+    margin-left: 30px;
+}
+
+.box button img{
+    width: 15px;
+    margin: 0;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}

@@ -1,0 +1,251 @@
+/*-- FICHE BASKET FAUTEUIL--*/
+
+body{
+    margin: 0;
+}
+.titre_image{
+    background-image: url(../img/handisports/basket/basket-fauteuil.jpg);
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titre_image h1{
+    margin: 0;
+
+    color: white;
+    font-family: gobold;
+    font-style: italic;
+    font-size: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+.retour a{
+
+    font-family: Corpid E1s Cd regular;
+
+    text-decoration: none;
+    color: red;
+
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+
+.histoire{
+    width: 1000px;
+
+    margin-left: 250px;
+
+}
+
+.histoire h2{
+    font-family: Corpid E1s Cd Heavy;
+    font-size: 2rem;
+}
+
+.histoire p{
+    width: 950px;
+    font-family: Corpid E1s Cd regular;
+}
+
+.presentation{
+    width: 1000px;
+    margin-left: 250px;
+}
+
+.presentation h2{
+    font-family: Corpid E1s Cd Heavy;
+    font-size: 2rem;
+}
+
+.paragraphe{
+    font-family:  Corpid E1s Cd regular;
+}
+
+.button_cache{
+    background: none;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.button_cache img{
+    width: 10px;
+
+  
+    margin: 0;
+    margin-left: 5px;
+    margin-bottom: 1px;
+}
+
+.publics{
+    width: 1000px;
+    margin-left: 250px;
+}
+
+.publics h2{
+    font-family: Corpid E1s Cd Heavy;
+    font-size: 2rem;
+}
+
+.publics p{
+    font-family:  Corpid E1s Cd regular;
+}
+
+.Matériel{
+    width: 1000px;
+    margin-left: 250px;
+}
+
+.Matériel h2{
+    font-family: Corpid E1s Cd Heavy;
+    font-size: 2rem;
+}
+
+.Matériel p{
+    width: 950px;
+    font-family:  Corpid E1s Cd regular;
+
+}
+
+.section_bleu{
+    background: #24386B;
+    margin-top: 100px;
+
+    
+
+}
+
+
+
+.section_bleu h1{
+    color: white;
+    font-family: gobold;
+    margin-bottom: 40px;
+    
+}
+.section_bleu p{
+    width: 880px;
+
+    color: white;
+    font-family: Corpid E1s Cd regular;
+
+    margin-bottom: 30px;
+}
+
+.section_bleu img{
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.handi_groupe{
+    margin-left: 250px;
+    padding-top: 100px;
+}
+
+.handi_groupe a{
+    margin-left: 750px;
+    font-family: Corpid E1s Cd regular;
+
+    text-decoration: none;
+    color: #F7CF37;
+
+}
+
+.icon_fleche img{
+    width: 15px;
+    height: auto;
+    margin: 0;
+    margin-left: 5px;
+    margin-bottom: 1px;
+}
+
+.intro{
+    margin-top: 70px;
+    width: 1000px;
+    margin-left: 250px;
+}
+
+.intro h1{
+    color: white;
+    font-family: gobold;
+    margin-bottom: 40px;
+}
+
+.intro a{
+    color: #F7CF37;
+    font-family: Corpid E1s Cd regular ;
+    margin-left: 655px;
+}
+
+.intro img{
+    width: 15px;
+    height: auto;
+    margin: 0;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+.club_proximite{
+    height: 350px;
+    margin-left: 250px;
+    margin-top: 70px;
+
+    background: #24386B;
+    color: white;
+
+
+}
+
+.club_proximite h1 {
+    margin-top: 0;
+font-size: 2rem;
+font-family: gobold;
+}
+
+.club_proximite p{
+    font-family: Corpid E1s Cd regular  ;
+}
+
+.bouton_recherche{
+    display: flex;
+}
+.bouton_recherche input{
+    width: 325px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.bouton_recherche button{
+    width: 325px;
+    height: 430px;
+    height: 42px;
+    font-size: 1rem;
+
+
+    border: solid 1px white;
+    border-radius: 10px;
+    background: none;
+
+    font-family: Corpid E1s Cd light;
+    font-size: 25px;
+    color: white;
+}

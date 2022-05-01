@@ -1,0 +1,127 @@
+/*-- FONT --*/
+@font-face {
+    font-family: "Gobold-Italic";
+    src: url("../fonts/Gobold Regular Italic.otf") format("otf"),    
+  }
+  
+  @font-face {
+    font-family: "Gobold-Regular";
+    src: url("../fonts/Gobold Regular.otf") format("otf"); 
+}
+
+/*-- FOOTER --*/
+
+.newsletter{
+    background:#1C1C1C;
+    border-top-width: 1px;
+border-top-style: solid;
+border-bottom-width: 0px;
+border-bottom-style: solid;
+
+height: 180px;
+}
+
+
+.newsletter h2{
+    margin-top: 20px;
+    margin-bottom:0 ;
+    margin-left: 30px;
+    
+    font-family: Gobold;
+    font-style: italic;
+    color:#ffffffde;
+
+}
+.button_newsletter{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+
+    margin-top: -30px;
+}
+
+.button_newsletter input{
+    width: 700px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+
+
+    
+}
+
+.button_newsletter button{
+width: 700px;
+height: 45px;
+margin-top: 5px;
+
+
+border: solid 1px white;
+border-radius: 10px;
+background: none;
+
+font-family: Corpid E1s Cd light;
+font-size: 25px;
+color: white;
+}
+
+.nav{
+    background: #303132;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+    height: 300px;
+}
+.nav_bar a{
+    text-decoration: none;
+    color:white;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+
+    font-family: Corpid E1s Cd;
+}
+
+.logo_accueil{
+    width: 140px;
+}
+
+.nav_bar img{
+    width: 80px;
+}
+
+
+.droite{
+    margin-right: 50px;
+}
+.gauche{
+    margin-right: 50px;
+   
+}
+
+.logo_accueil{
+    position: relative;
+    left: 180px;
+}
+.nav_bar{
+    margin-right: 100px;
+}
+
+.mobile{
+    display: flex;
+    
+}
+
+.mail{
+    display: flex;
+}
+
+.footer_a{
+    text-decoration: none;
+    color:white;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+
+    font-family: Corpid E1s Cd;
+}

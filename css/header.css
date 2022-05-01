@@ -1,0 +1,51 @@
+/*-- HEADER --*/
+
+header{
+    position: sticky;
+    top: 0.1px;
+    background-color: white;
+    max-width: 1425px;
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+
+  header img {
+      width: 90px;
+      position: relative;
+      top: auto; left: 23px;
+  }
+
+  header input{
+    border-color: #a4a4a46b;
+    border-radius: 10px;
+    height: 30px;
+    width: 220px;
+    padding: 0.3rem;
+    padding-left: 1rem;
+    margin-bottom: 0.1rem;
+    background-size: 20px;
+
+    position: relative;
+    right: 23px;
+
+}
+
+
+  a{
+    text-decoration: none;
+    color: black;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+header a{
+    font-size: 1rem;
+    font-family: Corpid E1s Cd;
+
+}
+
