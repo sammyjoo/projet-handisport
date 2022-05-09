@@ -17,7 +17,7 @@
 
 
 body{
-    max-width: 1425px;
+    overflow-x: hidden;
     margin: 0;
 }
 body h1{
@@ -39,6 +39,8 @@ body p{
     background-size: 1655px;
     height: 600px;
     font-family: Rockstar;
+
+    margin-top: 60px;
    
 }
 
@@ -211,7 +213,7 @@ body p{
 
 .bien_etre{
     background-image: url(../img/accueil/bien_etre.jpg);
-    background-position-x: -42px;
+    background-position-x: -32px;
     height: 650px;
 }
 .bien_etre h1{
@@ -321,11 +323,39 @@ font-style: italic;
 }
 .insta h2{
     font-family: gobold;
+    margin: 0;
+    padding-top: 20px;
 }
 
 .insta h3{
-    font-family: roboto;
+    font-family:Corpid E1s Cd light;
+    color: red;
+    margin: 0;
+    margin-bottom: 40px;
 }
+
+.insta img{
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.insta button{
+    width: 233px;
+    height: 430px;
+    height: 45px;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    border: solid 1px white;
+    border-radius: 10px;
+    background: none;
+
+    font-family: Corpid E1s Cd light;
+    font-size: 25px;
+    color: white;
+}
+
 
 
 .partenaires h1{
@@ -337,6 +367,7 @@ font-style: italic;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .logos_partenaires img{

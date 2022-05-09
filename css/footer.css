@@ -70,7 +70,7 @@ color: white;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: right;
+
 
     height: 300px;
 }
@@ -91,30 +91,64 @@ color: white;
     width: 80px;
 }
 
+.gauche{
+    flex: 3;
+    border-right: solid 1px;
+    margin-right: 40px;
+}
+
+.element_gauche{
+    width: 60%;
+    margin: auto;
+
+}
 
 .droite{
-    margin-right: 50px;
+   flex: 1;
+   padding-right: 30px;
 }
-.gauche{
-    margin-right: 50px;
-   
-}
+
 
 .logo_accueil{
     position: relative;
     left: 180px;
 }
-.nav_bar{
-    margin-right: 100px;
-}
+
 
 .mobile{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+
     
+}
+
+.left_mobile{
+    display: flex;
+    align-items: center;
+    
+    
+    width: 45%;
+
+    justify-content: space-between;
+
 }
 
 .mail{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left_mail{
+    display: flex;
+    align-items: center;
+    
+    
+    width: 57%;
+
+    justify-content: space-between;
+
 }
 
 .footer_a{
@@ -124,4 +158,15 @@ color: white;
     padding-left: 0.5rem;
 
     font-family: Corpid E1s Cd;
+}
+
+.reseaux_sociaux{
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 50px;
+    padding-right: 6px;
+
+    margin-top: 30px;
+
 }
