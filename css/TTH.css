@@ -1,0 +1,397 @@
+/*Style css de trouve ton handisport*/
+
+
+/*Intro*/
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+    background: #24386B;
+}
+
+
+.contenu{
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.choix_idee{
+    display: flex;
+}
+
+.contenu img{
+    height: 300px;
+}
+.contenu h1{
+    font-family: gobold;
+    font-style: italic;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.contenu p{
+    font-family:Corpid E1s Cd ;
+}
+
+.contenu h2{
+    font-family: gobold;
+    font-style: light;
+    color: #F7CF37DE;
+    font-size: 1.5rem;
+
+}
+
+.go{
+
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
+.go button{
+   
+
+    height: 55px;
+    width: 200px;
+
+    border: none;
+    border-radius: 30px;
+    background: #E40000;
+
+    font-family: Corpid E1s Cd light;
+    font-size: 15px;
+    color: white;
+}
+
+.choix_idee{
+    display: flex;
+    align-items: center;
+}
+
+.choix_idee p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #E40000;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: white;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  /*----------------Page 1-----------------------*/
+
+
+
+.bar_nav_formulaire{
+    margin-bottom: 60px;
+    
+}
+
+.bar_nav_formulaire a{
+    color: #af9c4f;
+    font-family: gobold;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.bar_nav_formulaire .active{
+    color: #FFCC00;
+    font-size: 1.5rem;
+}
+
+.info_utilisateur{
+    width: 800px;
+ 
+
+}
+
+.info_utilisateur p{
+    font-size: 2rem;
+
+}
+
+/*--------------page 1 - mon handicap-------*/
+
+.info_handicap{
+    width: 800px;
+}
+
+.info_handicap h3{
+    font-family: Corpid E1s Cd light;
+    font-style: light;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.526);
+
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.info_handicap button{
+
+    cursor: pointer;
+
+    height: 55px;
+    width: 300px;
+
+    border: none;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.35);
+    
+
+    font-family: Corpid E1s Cd light;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.buttons_form{
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.buttons_form button{
+    margin-bottom: 10px;
+}
+
+.btn_1 button{
+    width: 350px;
+}
+.btn_2 button{
+    width: 250px;
+}
+.btn_3 button{
+    width: 380px;
+}
+.btn_4 button{
+    width: 430px;
+    margin-bottom: 60px;
+}
+
+/*----- Page 2 - Pratiques -------*/
+
+.info_pratiques img{
+    border-radius: 30px;
+}
+
+/*----- Page 3 - Envies -------*/
+
+.info_envies img{
+    border-radius: 30px;
+}
+
+/*----- page 4 - Eviter ------*/
+
+.info_eviter h3{
+    font-family: Corpid E1s Cd light;
+    font-style: light;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.526);
+
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.btn_eviter{
+    display: flex;
+    align-items: center;
+}
+
+.btn_eviter2 button{
+    cursor: pointer;
+
+    height: 55px;
+    width: 300px;
+
+    border: none;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.35);
+    
+
+    font-family: Corpid E1s Cd light;
+    font-size: 1.2rem;
+    color: black;
+
+    margin-top: 30px;
+    margin-left: 300px ;
+}
+
+.btn_chocs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+
+    border-radius: 30px;
+    border: none;
+
+    font-family: Corpid E1s Cd light;
+    font-size: 25px;
+
+    margin: 0;
+
+    margin-left: 20px;
+    opacity: 50%;
+}
+
+
+
+.btn_chocs img{
+    width: 150px;
+}
+
+/*----- page 5 - Qualités ------*/
+
+.info_qualites h3{
+    font-family: Corpid E1s Cd light;
+    font-style: light;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.526);
+
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.btn_qualites{
+    display: flex;
+    align-items: center;
+}
+
+
+.btn_physique{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+
+    border-radius: 30px;
+    border: none;
+
+    font-family: Corpid E1s Cd;
+    font-size: 25px;
+
+    margin: 0;
+
+    margin-left: 20px;
+    opacity: 50%;
+}
+
+
+
+.btn_physique img{
+    width: 80px;
+}
+
+/*--------------page 6 - motivations-------*/
+
+.info_motivations{
+    width: 800px;
+}
+
+.info_motivations h3{
+    font-family: Corpid E1s Cd light;
+    font-style: light;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.526);
+
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.info_motivations button{
+
+    cursor: pointer;
+
+    height: 55px;
+    width: 300px;
+
+    border: none;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.35);
+    
+
+    font-family: Corpid E1s Cd light;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.btn_contenu{
+    display: flex;
+}
+
+.buttons_motivations{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+
+
+}
+
+.buttons_motivations button{
+    margin-bottom: 10px;
+}
+

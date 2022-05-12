@@ -243,6 +243,8 @@ body p{
 
 .bien_etre button{
 
+    cursor: pointer;
+
     height: 55px;
     width: 300px;
 
