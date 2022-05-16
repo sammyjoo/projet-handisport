@@ -1,0 +1,103 @@
+/*style des témoignages*/
+
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+    background: #24386B;
+
+    color: white;
+}
+
+h1{
+    font-family: gobold;
+    font-style: italic;
+    font-size: 3rem;
+    color: #F7CF37;
+    margin: 0;
+    margin-bottom: 10px;
+
+
+}
+
+h2{
+    font-family: gobold;
+    font-size: 1.5rem;
+}
+
+p{
+    font-family: Corpid E1s Cd;
+    font-size: 1.3rem;
+}
+
+.title_trait{
+    border-bottom: solid 3px;
+    margin-right: 40px;
+    width: 1200px;
+    color: #F7CF37;
+    
+
+}
+
+.intro{
+    margin-top: 30px;
+    background: #f7d137b8;
+    color: black;
+
+    width: 1200px;
+
+    border: none;
+    border-radius: 30px;
+    
+
+}
+
+.intro h2, p{
+    margin: 30px;
+}
+
+
+.contenu_temoignage{
+
+    display: flex;
+    flex-direction: column;
+   
+
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.commentaires{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 90px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.commentaires h2{
+ 
+    color: #F7CF37;
+    font-family: Corpid E1s Cd;
+    text-transform: uppercase;
+
+}
+
+.contenu_com{
+    background: rgba(255, 255, 255, 0.539);
+    color: black;
+    width: 500px;
+
+    border: none;
+    border-radius: 15px;
+}
+
+.poste_commentaire h2, p{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+

@@ -1,0 +1,78 @@
+/*page de connexion*/
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+    background: #24386B;
+    color: white;
+
+}
+
+h1{
+    font-family: gobold;
+    font-style: italic;
+    font-size: 3rem;
+    color: #F7CF37;
+}
+
+label{
+    font-family: Corpid E1s Cd;
+    font-size: 1.5rem;
+    margin:0;
+    margin-right: 10px;
+}
+
+.contenu_connexion{
+    margin-top: 100px;
+    margin-bottom: 300px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+}
+
+.contenu_connexion button{
+    cursor: pointer;
+
+    height: 55px;
+    width: 300px;
+
+    border: none;
+    border-radius: 10px;
+    background: red;
+
+    font-family: Corpid E1s Cd light;
+    font-size: 25px;
+    color: white;
+
+    margin-top: 30px;
+}
+
+
+.in_mail{
+    margin-bottom: 15px;
+}
+.in_mail input{
+
+    height: 30px;
+    width: 300px;
+
+    border-radius: 10px;
+    border: none;
+}
+
+.in_mdp input{
+
+        height: 30px;
+        width: 300px;
+    
+        border-radius: 10px;
+        border: none;
+    
+}

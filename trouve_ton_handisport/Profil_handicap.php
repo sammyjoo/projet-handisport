@@ -1,48 +1,36 @@
-<!DOCTYPE html>
-   <html lang="fr">
-   <head>
-       <meta charset="UTF-8">
-       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-       <link rel="stylesheet" href="../css/header.css">
-       <link rel="stylesheet" href="../css/TTH.css">
-       <link rel="stylesheet" href="../css/footer.css">
-       <title>03 - Envies</title>
-   </head>
-   <body>
-   
-       <header>
-               <img src="../img/logo_handi_discipline.svg" alt="logo_handi_discipline">
-   
-                    <div class="bar_nav">
-                               <a href="../index.html">Trouve ton handisport</a>
-                               <a href="handisports.html">Handisports</a>
-                               <a href="#">Paralympique</a>
-                               <a href="#">Handi'quipement</a>
-                    </div>
-   
-                <input type="text" alt="Recherche">    
-       </header>
+<?php
+include_once('../includes/init.php');
+include_once('../admin/init.php');
 
+
+$titre = '01. Profil - mon handicap';
+include_once('../includes/header.php');
+?>
+    <link rel="stylesheet" href="../assets/css/TTH.css">
 
 
    <div class="contenu">
     <div class="bar_nav_formulaire">
-        <a href="#" >01. Profil</a>
-        <a href="#" >02. Pratiques</a>
-        <a href="#" class="active">03. Envies</a>
+        <a href="#" class="active">01. Profil</a>
+        <a href="#">02. Pratiques</a>
+        <a href="#">03. Envies</a>
         <a href="#">04. Contre indications</a>
         <a href="#">05. Qualités physique</a>
         <a href="#">06. Motivations</a>
     </div>
 
-    <div class="info_envies">
+    <div class="info_handicap">
     <h1>
-        JE SOUHAITE FAIRE UN SPORT
+        MON HANDICAP
     </h1>
+    <h3>PLUSIEURS RÉPONSES POSSIBLES</h3>
     
-    <img src="../img/formulaire/AdobeStock_128823582.jpg" alt="">
+    <form class="buttons_form" action="">
+    <div class="btn_1"><button>Je suis en fauteuil électrique</button></div>
+    <div class="btn_2"><button>Je suis hémiparétique</button></div>
+    <div class="btn_3"><button>Atteinte des membres supérieurs</button></div>
+    <div class="btn_4"><button>Pas d’atteintes des membres supérieurs</button></div>
+    </form>
   
     </div>
 

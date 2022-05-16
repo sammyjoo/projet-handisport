@@ -17,9 +17,11 @@ header{
 }
 
   header img {
+      cursor: pointer;
       width: 90px;
       position: relative;
       top: auto; left: 23px;
+
   }
 
   header input{

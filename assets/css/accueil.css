@@ -271,6 +271,11 @@ body p{
     height: 600px;
 }
 
+.temoignages .active_btn{
+    background: red;
+}
+
+
 .club_proximite{
     height: 350px;
 

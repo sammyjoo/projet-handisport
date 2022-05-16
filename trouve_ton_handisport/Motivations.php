@@ -1,50 +1,49 @@
-<!DOCTYPE html>
-   <html lang="fr">
-   <head>
-       <meta charset="UTF-8">
-       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-       <link rel="stylesheet" href="../css/header.css">
-       <link rel="stylesheet" href="../css/TTH.css">
-       <link rel="stylesheet" href="../css/footer.css">
-       <title>Idée d'activité handisport</title>
-   </head>
-   <body>
-   
-       <header>
-               <img src="../img/logo_handi_discipline.svg" alt="logo_handi_discipline">
-   
-                    <div class="bar_nav">
-                               <a href="../index.html">Trouve ton handisport</a>
-                               <a href="handisports.html">Handisports</a>
-                               <a href="#">Paralympique</a>
-                               <a href="#">Handi'quipement</a>
-                    </div>
-   
-                <input type="text" alt="Recherche">    
-       </header>
+<?php
+include_once('../includes/init.php');
+include_once('../admin/init.php');
+
+
+$titre = '06. Motivations';
+include_once('../includes/header.php');
+?>
+    <link rel="stylesheet" href="../assets/css/TTH.css">
+
+
    <div class="contenu">
-       <h1>Répondez à ces brèves questions afin de connaître</h1>
-        <h1>les sports adaptés correspondant le mieux</h1>
-        <h1>à votre situation.</h1>
-       <h2>As-tu une idée de l’activité que tu souhaites pratiquer ?</h2>
-
-       <div class="choix_idee">
-        <p>Oui, je fonce !</p>
-          <label class="switch">
-            <input type="checkbox" checked>
-            <span class="slider round"></span>
-          </label>
-        <p>Non, je souhaite être accompagné</p>
-       </div>
-
-       <div class="go">
-       <button>C'EST PARTI</button>
+    <div class="bar_nav_formulaire">
+        <a href="#" >01. Profil</a>
+        <a href="#">02. Pratiques</a>
+        <a href="#">03. Envies</a>
+        <a href="#">04. Contre indications</a>
+        <a href="#">05. Qualités physique</a>
+        <a href="#" class="active">06. Motivations</a>
     </div>
-    <img src="../img/formulaire/AdobeStock_209126661.jpg" alt="">
-      
 
+    <div class="info_motivations">
+    <h1>
+        MES 3 GRANDES MOTIVATIONS
+    </h1>
+    <h3>3 RÉPONSES MAXIMUM</h3>
+    
+    <div class="btn_contenu">
+    <form class="buttons_motivations" action="">
+    <div class="btn_A"><button>Me sentir bien</button></div>
+    <div class="btn_B"><button>Me remettre au sport</button></div>
+    <div class="btn_C"><button>Me dépasser</button></div>
+    <div class="btn_D"><button>Me destresser</button></div>
+    </form>
+
+    <form class="buttons_motivations" action="">
+        <div class="btn_A"><button>Gagner en autonomie</button></div>
+        <div class="btn_B"><button>Rencontrer des gens</button></div>
+        <div class="btn_C"><button>Performer</button></div>
+        <div class="btn_D"><button>Perdre du poids</button></div>
+        </form>
+    </div>
+    </div>
+
+    <button>RETOUR</button>
+    <button>SUIVANT</button>
 
 
 

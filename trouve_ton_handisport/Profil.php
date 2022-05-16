@@ -1,29 +1,12 @@
-<!DOCTYPE html>
-   <html lang="fr">
-   <head>
-       <meta charset="UTF-8">
-       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-       <link rel="stylesheet" href="../css/header.css">
-       <link rel="stylesheet" href="../css/TTH.css">
-       <link rel="stylesheet" href="../css/footer.css">
-       <title>01. Profil - mon handicap</title>
-   </head>
-   <body>
-   
-       <header>
-               <img src="../img/logo_handi_discipline.svg" alt="logo_handi_discipline">
-   
-                    <div class="bar_nav">
-                               <a href="../index.html">Trouve ton handisport</a>
-                               <a href="handisports.html">Handisports</a>
-                               <a href="#">Paralympique</a>
-                               <a href="#">Handi'quipement</a>
-                    </div>
-   
-                <input type="text" alt="Recherche">    
-       </header>
+<?php
+include_once('../includes/init.php');
+include_once('../admin/init.php');
+
+
+$titre = '1. Profil';
+include_once('../includes/header.php');
+?>
+    <link rel="stylesheet" href="../assets/css/TTH.css">
 
 
 
@@ -37,22 +20,17 @@
         <a href="#">06. Motivations</a>
     </div>
 
-    <div class="info_handicap">
+    <div class="info_utilisateur">
     <h1>
-        MON HANDICAP
+        INFORMATION UTILISATEUR
     </h1>
-    <h3>PLUSIEURS RÉPONSES POSSIBLES</h3>
+    <p>Je m’appelle <input type="text" name="" id=""> , j’ai <input type="text" name="" id=""> ans.</p>
+    <p>Je me déplace et/ou je veux pratiquer</p>
     
-    <form class="buttons_form" action="">
-    <div class="btn_1"><button>Je suis en fauteuil électrique</button></div>
-    <div class="btn_2"><button>Je suis hémiparétique</button></div>
-    <div class="btn_3"><button>Atteinte des membres supérieurs</button></div>
-    <div class="btn_4"><button>Pas d’atteintes des membres supérieurs</button></div>
-    </form>
-  
+
+    <p>Je choisis</p>
     </div>
 
-    <button>RETOUR</button>
     <button>SUIVANT</button>
 
 

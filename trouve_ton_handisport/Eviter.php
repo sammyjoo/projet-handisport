@@ -1,32 +1,12 @@
-<!DOCTYPE html>
-<html lang="fr">
+<?php
+include_once('../includes/init.php');
+include_once('../admin/init.php');
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/TTH.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <title>05 - Qualités physique </title>
-</head>
-
-<body>
-
-    <header>
-        <img src="../img/logo_handi_discipline.svg" alt="logo_handi_discipline">
-
-        <div class="bar_nav">
-            <a href="../index.html">Trouve ton handisport</a>
-            <a href="handisports.html">Handisports</a>
-            <a href="#">Paralympique</a>
-            <a href="#">Handi'quipement</a>
-        </div>
-
-        <input type="text" alt="Recherche">
-    </header>
-
+$titre = '04 - Contre indications';
+include_once('../includes/header.php');
+?>
+    <link rel="stylesheet" href="../assets/css/TTH.css">
 
 
     <div class="contenu">
@@ -34,8 +14,8 @@
             <a href="#">01. Profil</a>
             <a href="#">02. Pratiques</a>
             <a href="#">03. Envies</a>
-            <a href="#" >04. Contre indications</a>
-            <a href="#" class="active">05. Qualités physique</a>
+            <a href="#" class="active">04. Contre indications</a>
+            <a href="#">05. Qualités physique</a>
             <a href="#">06. Motivations</a>
         </div>
 
@@ -45,39 +25,29 @@
             </h1>
             <h3>PLUSIEURS RÉPONSES POSSIBLES</h3>
 
-            <div class="btn_qualites">
-                <button class="btn_physique">
-                    <img src="../img/SVG/force.svg" alt="">
-                    Force
+            <div class="btn_eviter">
+                <button class="btn_chocs">
+                    <img src="../assets/img/SVG/chocs_chutes_plongeons.svg" alt="">
+                    Chocs, Chutes <br> et plongeons
                 </button>
 
-                <button class="btn_physique">
-                    <img src="../img/SVG/vitesse.svg" alt="">
-                    Vitesse
+                <button class="btn_chocs">
+                    <img src="../assets/img/SVG/efforts.svg" alt="">
+                    Efforts violents
                 </button>
 
-                <button class="btn_physique">
-                    <img src="../img/SVG/souplesse.svg" alt="">
-                    Souplesse
+                <button class="btn_chocs">
+                    <img src="../assets/img/SVG/musculation.svg" alt="">
+                    Travaille de musculation
                 </button>
 
-                <button class="btn_physique">
-                    <img src="../img/SVG/endurance.svg" alt="">
-                    Endurance
-                </button>
-
-                <button class="btn_physique">
-                    <img src="../img/SVG/equilibre.svg" alt="">
-                    Equilibre
-                </button>
-
-                <button class="btn_physique">
-                    <img src="../img/SVG/adresse.svg" alt="">
-                    Adresse
+                <button class="btn_chocs">
+                    <img src="../assets/img/SVG/aquatique.svg" alt="">
+                    Activités,<br> aquatiques,<br> nautiques
                 </button>
             </div>
             <div class="btn_eviter2">
-                <button>Aucune, je passe à la question suivante !</button>
+                <button>Rien, je suis prêt(e) a tout !</button>
             </div>
 
         </div>
@@ -149,10 +119,10 @@
                 <hr>
 
                 <div class="reseaux_sociaux">
-                    <img src="../img/Icon-in.svg" alt="linkedin">
-                    <img src="../img/Icon-twitter.svg" alt="twitter">
-                    <img src="../img/Icon-facebook-f.svg" alt="facebook">
-                    <img src="../img/Icon-instagram.svg" alt="">
+                    <img src="../assets/img/Icon-in.svg" alt="linkedin">
+                    <img src="../assets/img/Icon-twitter.svg" alt="twitter">
+                    <img src="../assets/img/Icon-facebook-f.svg" alt="facebook">
+                    <img src="../assets/img/Icon-instagram.svg" alt="">
 
                 </div>
             </div>
