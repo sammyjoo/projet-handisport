@@ -1,0 +1,74 @@
+/* Feuille de styles dataviz*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+
+    overflow-x: hidden;
+}
+
+.contenu_dataviz{
+    margin-top: 100px;
+}
+
+.intro_data{
+    background: #24386B;
+ 
+}
+
+.intro_data{
+    font-family: Corpid E1s Cd;
+    font-size: 1rem;
+    color: white;
+}
+
+
+
+
+
+
+div{
+    text-align: center;
+}
+
+div h1{
+
+    font-family: gobold;
+    font-style: italic;
+    font-size: 3rem;
+    color: #F7CF37;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.top{
+    padding: 50px;
+    background-color:white;
+}
+.top2{
+    padding: 20px;
+    font-size: 2.4m;
+    font-weight: bolder;
+    color: oldlace;
+    background: #24386B;
+}
+.couleur{
+    color: rgb(255, 127, 127,0.6);
+}
+
+
+#Contenu{
+    width: 100%;
+    padding: 20px;
+    height: 480px;
+    background-color: oldlace;
+    font-size: 0.8em;
+    color: black;
+}
+
