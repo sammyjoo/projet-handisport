@@ -21,14 +21,15 @@
 ?>
 
     <?php if(adminConnecte()): ?>
-        <link rel="stylesheet" href="../assets/css/connexion.css">
+        <link rel="stylesheet" href="../assets/css/dash.css">
 
-        
-        <h2 class="alert alert-success text-center mt-3">Bienvenue <?php if(adminConnecte()) echo $_SESSION['membre']['firstname'];?></h1>
+       <div class="contenu_dash">
+        <h1 class="alert alert-success text-center mt-3">Bienvenue <?php if(adminConnecte()) echo $_SESSION['membre']['firstname'];?></h1>
         <!-- contenu de la page -->
         <h2>Membres</h2>
         <p>Nombre d'inscrits : <span><?= $membreQuantity; ?></span></p>
-
+        <!-- <a href="inscription.php">ajouter un membre</a> -->
+        </div> 
       <!--  include_once('../commentaires/page.php');?> -->
 
 
@@ -38,6 +39,4 @@
     <?php endif; ?>
 
 
-<?php
-    include_once('../includes/footer.php');
-?>
+

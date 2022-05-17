@@ -14,17 +14,6 @@
 
 
         
-        
-        /*
-            SI la key "notification" est définie dans $_SESSION
-            ET la key "membre" est définie dans $_SESSION['notification']
-            ET la key "membre" a pour valeur "inscrire"
-        */
-        /*
-        - si la key "notification" est définie dans la $_SESSION
-        - si la key "membre" est définie dans $_SESSION['notification']
-        - si la key "membre" a pour valeur "inscrire"
-        */
         if(isset($_SESSION['notification'])  AND isset($_SESSION['notification']['membre']) AND $_SESSION['notification']['membre'] = "inscrire")
         {
             $notification = "<div class='alert alert-success text-center col-md-6 mx-auto disparition'>Vous êtes bien inscrit, vous pouvez vous connecter</div>";
@@ -136,7 +125,7 @@
     </form>
     </div>
 <?php else : ?><!-- true : membre connecté -->
-    <?php include_once("./includes/403.php"); ?>
+    <?php include_once("../includes/403.php"); ?>
 <?php endif; ?>
 
 

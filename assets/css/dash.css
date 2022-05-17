@@ -1,0 +1,35 @@
+/*page de connexion*/
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+    background: #24386B;
+    color: white;
+
+}
+
+.contenu_dash{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+h1{
+    font-family: gobold;
+    font-style: italic;
+    font-size: 3rem;
+    color: #F7CF37;
+}
+
+h2{
+    font-family: Corpid E1s Cd;
+    font-size: 2rem;
+
+}
+
+p{
+    font-family: Corpid E1s Cd;
+    font-size: 1rem;
+
+ 
+}

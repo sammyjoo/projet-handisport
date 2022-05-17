@@ -74,9 +74,10 @@ include_once("commentaires/fonctions/fonctions.php");
 
     <div class="temoignages">
 
-    <?php
-			afficherCommentaires("commentaires/page.php", 123);
-	?>
+    <div class="commentaire">
+    <p class="red"> " </p> <?php afficherCommentaires("commentaires/page.php", 123); ?> <p class="red"> " </p> 
+    </div>
+   <!-- <p>le commentaire : php echo $_GET('commentaire');  </p> -->
 
         <button class="active_btn" onclick="window.location.href = 'commentaires/page.php'"> Tous les témoignage</button>
     </div>

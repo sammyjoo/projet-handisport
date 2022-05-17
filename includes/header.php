@@ -26,11 +26,11 @@
 
 
         <?php if(adminConnecte()) : ?> <!-- Admin -->
-            
-
-        <a class="admin" href="<?= URL ?>admin/deconnexion.php">Déconnexion</a>
-  
-
+          
+        <div class="admin_nav">
+            <a class="admin" href="<?= URL ?>admin/dashboard.php">Admin</a>
+            <a class="admin" href="<?= URL ?>admin/deconnexion.php">Déconnexion</a>
+        </div>
 <?php elseif(membreConnecte()) : ?> <!-- Membre -->
 
         <li><a class="membre" href="<?= URL ?>deconnexion.php">Déconnexion</a></li>
