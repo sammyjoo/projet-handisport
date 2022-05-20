@@ -83,11 +83,44 @@ body p{
     margin-left: 80px;
     margin-top: -20px;
 
+    cursor: pointer;
+    transition: all 0.2s linear 0s;
+
 }
+
+
+
+.effect_buttons:hover{
+
+    background: red;
+    border: none;
+    border-radius: 50px;
+
+
+}
+
+.handi_equipement a:hover{
+    color: #F7CF37;
+}
+
+
 
 .button_equipement{
     display: flex;
     flex-direction: column;
+    
+}
+
+.button_equipement a{
+
+    font-family: Corpid E1s Cd ;
+
+    
+}
+
+.button_equipement > a > img{
+
+width: 20px;
     
 }
 

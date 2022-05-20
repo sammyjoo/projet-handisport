@@ -17,17 +17,25 @@ include_once('../includes/header.php');
         <h1>à votre situation.</h1>
        <h2>As-tu une idée de l’activité que tu souhaites pratiquer ?</h2>
 
+
+
        <div class="choix_idee">
         <p>Oui, je fonce !</p>
+
           <label class="switch">
-            <input type="checkbox" checked>
-            <span class="slider round"></span>
+            <input type="checkbox" id="check_box" checked>
+            <span class="slider round" id="slider_button"></span>
           </label>
+
         <p>Non, je souhaite être accompagné</p>
        </div>
 
+
+
        <div class="go">
-       <button>C'EST PARTI</button>
+       <button id="check_action">C'EST PARTI</button>
+
+
     </div>
     <img src="../img/formulaire/AdobeStock_209126661.jpg" alt="">
       
@@ -41,7 +49,21 @@ include_once('../includes/header.php');
 
 
 
+<script>
 
+let accompagnement = false;
+let url = "";
+let sliderButton = document.getElementById('slider_button');
+sliderButton.addEventListener('click', function() {
+  accompagnement ? accompagnement = false : accompagnement = true;
+});
+
+let submitButton = document.getElementById('check_action');
+submitButton.addEventListener('click', function() {
+  accompagnement ? url = "../handisports.php" : url = "Profil.php";
+  window.location.href = url;
+});
+</script>
 
    <?php
     include_once('../includes/footer.php');

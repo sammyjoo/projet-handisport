@@ -28,6 +28,8 @@
         <!-- contenu de la page -->
         <h2>Membres</h2>
         <p>Nombre d'inscrits : <span><?= $membreQuantity; ?></span></p>
+        <h2><a href="commentaires.php">Gérer les commentaires</a></h2>
+        
         <!-- <a href="inscription.php">ajouter un membre</a> -->
         </div> 
       <!--  include_once('../commentaires/page.php');?> -->

@@ -28,17 +28,13 @@ include_once('../includes/header.php');
     <p>Je me déplace et/ou je veux pratiquer</p>
     
     <ul id="nav" class="drop">
-    <li><a href="#">Je choisis</a>
-        <ul>
-            <li><a href="#">debout</a></li>
-            <li><a href="profil_assis.php">en fauteuil / assis</a></li>
+            <li><a href="#">en fauteuil / assis</a></li>
          </ul>
-    </li>
-    </ul>
+   
 
     </div>
 
-    <button class="button_profil">SUIVANT</button>
+    <button class="button_profil" onclick="window.location.href = 'profil_handicap.php'">SUIVANT</button>
 
 
 

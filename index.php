@@ -11,6 +11,14 @@ include_once('./includes/header.php');
 define("C2SCRIPT","peut être n'importe quoi ici");
 include_once("commentaires/fonctions/fonctions.php");
 
+//on se connecte à la base de données (à adapter/remplacer avec votre système de connexion)
+$BDD = array();
+$BDD['serveur'] = "localhost";
+$BDD['login'] = "root";
+$BDD['pass'] = "root";
+$BDD['bdd'] = "handi_scipline";
+$mysqli = mysqli_connect($BDD['serveur'],$BDD['login'],$BDD['pass'],$BDD['bdd']);
+if(!$mysqli) exit('Connexion MySQL non accomplie!');
 
 
 ?>
@@ -26,8 +34,8 @@ include_once("commentaires/fonctions/fonctions.php");
         <h3>vendez vos équipements handisport</h3>
 
         <div class="button_equipement">
-            <button>Vends maintenant</button>
-            <a href="#">Découvrir comment ça marche</a>
+            <button class="effect_buttons">Vends maintenant</button>
+            <a href="#">Découvrir comment ça marche <img src="assets/img/fleche.svg" alt="fleche bouton"></a>
         </div>
     </div>
 
@@ -66,7 +74,7 @@ include_once("commentaires/fonctions/fonctions.php");
 
             <p>Les bénéfices possibles de la pratique<br> sportive pour une personne en situation <br> de handicap</p>
 
-            <button>Découvrir les bien-faits</button>
+            <button class="effect_buttons">Découvrir les bien-faits</button>
         </div>
     </div>
 
@@ -75,17 +83,17 @@ include_once("commentaires/fonctions/fonctions.php");
     <div class="temoignages">
 
     <div class="commentaire">
-    <p class="red"> " </p> <?php afficherCommentaires("commentaires/page.php", 123); ?> <p class="red"> " </p> 
+    <p class="red"> " </p> <?php afficherCommentaires(123, 1); ?> <p class="red"> " </p> 
     </div>
    <!-- <p>le commentaire : php echo $_GET('commentaire');  </p> -->
 
-        <button class="active_btn" onclick="window.location.href = 'commentaires/page.php'"> Tous les témoignage</button>
+        <button class="active_btn effect_buttons" onclick="window.location.href = 'commentaires/page.php'"> Tous les témoignage</button>
     </div>
 
     <div class="club_proximite">
         <p>Trouvez votre structure sportive à proximité</p>
         <input type="text">
-        <button> Recherche </button>
+        <button class="effect_buttons"> Recherche </button>
     </div>
 
     <div class="insta">
@@ -99,10 +107,14 @@ include_once("commentaires/fonctions/fonctions.php");
         <img src="assets/img/accueil/IMG_0634.png" alt="insta">
         <img src="assets/img/accueil/IMG_0635.PNG" alt="insta">
         <img src="assets/img/accueil/IMG_0636.PNG" alt="insta">
+        <img src="assets/img/accueil/IMG_0633.jpg" alt="insta">
+        <img src="assets/img/accueil/IMG_0634.png" alt="insta">
+        <img src="assets/img/accueil/IMG_0635.PNG" alt="insta">
+        <img src="assets/img/accueil/IMG_0636.PNG" alt="insta">
          </div>
 
 
-        <button>Découvrir</button>
+        <button class="effect_buttons">Découvrir</button>
 
     </div>
 
