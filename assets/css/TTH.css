@@ -219,7 +219,7 @@ button{
     margin-bottom: 30px;
 }
 
-.info_handicap button{
+.btn_1, .btn_2, .btn_3, .btn_4{
 
     cursor: pointer;
 
@@ -227,15 +227,36 @@ button{
     width: 300px;
 
     border: none;
-    border-radius: 30px;
+    border-radius: 45px;
     background: rgba(255, 255, 255, 0.35);
     
 
-    font-family: Corpid E1s Cd light;
-    font-size: 1.2rem;
+    font-family: Corpid E1s Cd;
+    font-size: 1.4rem;
     color: black;
 
+    margin-bottom: 20px;
+
+    padding-top: 21px;
+    height: 48px;
+
 }
+
+
+ul.buttons_form{
+    color: black;
+    text-decoration: none;
+    list-style: none; margin: 0; padding: 0;
+    text-align: center;
+}
+
+
+
+div.contenu div.info_handicap ul.buttons_form li.btn_3.effect.done {
+  background: #CCFF99;
+}
+
+  
 
 .buttons_form{
     display: flex;
@@ -245,23 +266,38 @@ button{
 
 }
 
-.buttons_form button{
+.buttons_form a{
     margin-bottom: 10px;
 }
 
-.btn_1 button{
+.btn_1{
     width: 350px;
 }
 .btn_2 button{
     width: 250px;
 }
-.btn_3 button{
+.btn_3{
     width: 380px;
 }
-.btn_4 button{
+.btn_4{
     width: 430px;
     margin-bottom: 60px;
 }
+
+.groupe_btn{
+    display: flex;
+    margin-left: 500px;
+}
+
+div.contenu div.groupe_btn a.button_retour{
+
+    font-family: Corpid E1s Cd light;
+    color: white;
+    padding-top:20px ;
+    padding-right: 2.5rem;
+}
+
+
 
 /*----- Page 2 - Pratiques -------*/
 
@@ -274,6 +310,8 @@ button{
 .info_envies img{
     border-radius: 30px;
 }
+
+
 
 /*----- page 4 - Eviter ------*/
 
@@ -290,6 +328,15 @@ button{
 .btn_eviter{
     display: flex;
     align-items: center;
+}
+
+.btn_eviter button{
+    background: rgba(255, 255, 255, 0.35);}
+
+.btn_eviter button:hover{
+    background: white;
+    color: red;
+    font-family:Corpid E1s Cd ;
 }
 
 .btn_eviter2 button{
@@ -310,6 +357,14 @@ button{
     margin-top: 30px;
     margin-left: 300px ;
 }
+
+.btn_eviter2 button:hover, .btn_eviter2 button:focus{
+    background: red;
+    color: white;
+    box-shadow: inset 0 0 0 2em var(--hover);
+}
+
+
 
 .btn_chocs{
     display: flex;

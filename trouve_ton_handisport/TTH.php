@@ -49,22 +49,8 @@ include_once('../includes/header.php');
 
 
 
-<script>
-
-let accompagnement = false;
-let url = "";
-let sliderButton = document.getElementById('slider_button');
-sliderButton.addEventListener('click', function() {
-  accompagnement ? accompagnement = false : accompagnement = true;
-});
-
-let submitButton = document.getElementById('check_action');
-submitButton.addEventListener('click', function() {
-  accompagnement ? url = "../handisports.php" : url = "Profil.php";
-  window.location.href = url;
-});
-</script>
+<script src="../assets/js/TTH.js"></script>
 
    <?php
     include_once('../includes/footer.php');
-?>
+  ?>

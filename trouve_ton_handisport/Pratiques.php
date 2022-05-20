@@ -28,8 +28,10 @@ include_once('../includes/header.php');
   
     </div>
 
-    <button>RETOUR</button>
-    <button>SUIVANT</button>
+    <div class="groupe_btn">
+    <a href="Profil_handicap.php" class="button_retour">RETOUR</a>
+    <button class="button_suivant" onclick="window.location.href = 'Envies.php'">SUIVANT</button>
+    </div>
 
 
 

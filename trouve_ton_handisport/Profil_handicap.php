@@ -25,88 +25,47 @@ include_once('../includes/header.php');
     </h1>
     <h3>PLUSIEURS RÉPONSES POSSIBLES</h3>
     
-    <form class="buttons_form" action="">
-    <div class="btn_1"><button>Je suis en fauteuil électrique</button></div>
-    <div class="btn_2"><button>Je suis hémiparétique</button></div>
-    <div class="btn_3"><button>Atteinte des membres supérieurs</button></div>
-    <div class="btn_4"><button>Pas d’atteintes des membres supérieurs</button></div>
-    </form>
+    <ul class="buttons_form">
+    <li class="btn_1 effect ">Je suis en fauteuil électrique</li>
+    <li class="btn_2 effect">Je suis hémiparétique</li>
+    <li class="btn_3 effect">Atteinte des membres supérieurs</li>
+    <li class="btn_4 effect">Pas d’atteintes des membres supérieurs</li>
+    </ul>
+
+    <style>
+        html body div.contenu div.info_handicap ul.buttons_form li.btn_2.effect.done {
+  background: #CCFF99;
+}
+    </style>
+ 
+   
   
     </div>
 
-    <button>RETOUR</button>
-    <button>SUIVANT</button>
+    <div class="groupe_btn">
+    <a href="Profil.php" class="button_retour">RETOUR</a>
+    <button class="button_suivant" onclick="window.location.href = 'Pratiques.php'">SUIVANT</button>
+    </div>
+    
 
 
 
    </div>
    
-   
+   <script>
+       let list = document.querySelector('ul');
+list.addEventListener('click', function(ev) {
+  if( ev.target.tagName === 'LI') {
+     ev.target.classList.toggle('done');
+  }
+}, false);
 
+console.log(list)
 
+document.getElementsByClassName
 
+   </script>   
 
-
-   <footer>
-        <div class="newsletter">
-            <h2>Newsletter</h2>
-
-            <div class="button_newsletter">
-                <input type="Email">
-                <button>Envoyer</button>
-            </div>
-        </div>
-
-        <div class="nav">
-
-            <div class="gauche">
-                <div class="element_gauche">
-                <div class="logo_accueil">
-                    <img src="../img/logo_discpline_responsive.svg" alt="handi_discipline">
-                </div>
-                <div class="nav_bar">
-                    <a href="#">Trouve ton handisport</a>
-                    <a href="#">Handisports</a>
-                    <a href="#">Paralympique</a>
-                    <a href="#">À propos</a>
-                    <a href="#">Nous contacter</a>
-                    <img src="../img/logo_equipement_responsive.svg" alt="handi_equipement">
-                </div>
-            </div>
-            </div>
-
-            <div class="droite">
-                <div class="mobile">
-
-                    <div class="left_mobile">
-                        <img src="../img/Path 110.svg" alt="logo_mobile">
-                        <p>+123 456 789 234</p>
-                    </div>
-                    <a href="#" class="footer_a">Mobile</a>
-                </div>
-
-                <hr>
-
-                <div class="mail">
-                    <div class="left_mail">
-                        <img src="../img/Path 50.svg" alt="logo_email">
-                        <p>info@handicontact.com</p>
-                    </div>
-                    <a href="#" class="footer_a">Email</a>
-                </div>
-
-                <hr>
-
-                <div class="reseaux_sociaux">
-                    <img src="../img/Icon-in.svg" alt="linkedin">
-                    <img src="../img/Icon-twitter.svg" alt="twitter">
-                    <img src="../img/Icon-facebook-f.svg" alt="facebook">
-                    <img src="../img/Icon-instagram.svg" alt="">
-
-                </div>
-            </div>
-
-        </div>
-    </footer>
-</body>
-</html>
+<?php
+ include_once('../includes/footer.php');
+?>
