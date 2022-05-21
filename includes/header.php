@@ -32,7 +32,7 @@
             </li>
 
             <li ><a href="#">Paralympique</a></li>
-            <li ><a href="#">Handi'quipement</a></li>
+            <li ><a href="http://handiquipements.local/" target="_blank">Handi'quipement</a></li>
         </ul>
 
 

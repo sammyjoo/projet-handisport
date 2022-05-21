@@ -12,12 +12,12 @@ include_once('../includes/header.php');
 
    <div class="contenu">
     <div class="bar_nav_formulaire">
-        <a href="#" >01. Profil</a>
-        <a href="#" >02. Pratiques</a>
-        <a href="#" class="active">03. Envies</a>
-        <a href="#">04. Contre indications</a>
-        <a href="#">05. Qualités physique</a>
-        <a href="#">06. Motivations</a>
+        <a href="Profil.php" >01. Profil</a>
+        <a href="Pratiques.php" >02. Pratiques</a>
+        <a href="Envies.php" class="active">03. Envies</a>
+        <a href="Eviter.php">04. Contre indications</a>
+        <a href="Qualités.php">05. Qualités physique</a>
+        <a href="Motivations.php">06. Motivations</a>
     </div>
 
     <div class="info_envies">
@@ -30,7 +30,7 @@ include_once('../includes/header.php');
     </div>
 
     <div class="groupe_btn">
-    <a href="Envies.php" class="button_retour">RETOUR</a>
+    <a href="Profil.php" class="button_retour">RETOUR</a>
     <button class="button_suivant" onclick="window.location.href = 'Eviter.php'">SUIVANT</button>
     </div>
 

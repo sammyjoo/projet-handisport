@@ -34,8 +34,8 @@ if(!$mysqli) exit('Connexion MySQL non accomplie!');
         <h3>vendez vos équipements handisport</h3>
 
         <div class="button_equipement">
-            <button class="effect_buttons">Vends maintenant</button>
-            <a href="#">Découvrir comment ça marche <img src="assets/img/fleche.svg" alt="fleche bouton"></a>
+            <button class="effect_buttons" >Vends maintenant</button>
+            <a href="http://handiquipements.local/">Découvrir comment ça marche <img src="assets/img/fleche.svg" alt="fleche bouton"></a>
         </div>
     </div>
 

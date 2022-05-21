@@ -13,11 +13,12 @@ include_once('../includes/header.php');
    <div class="contenu">
     <div class="bar_nav_formulaire">
         <a href="#" class="active">01. Profil</a>
-        <a href="#">02. Pratiques</a>
-        <a href="#">03. Envies</a>
-        <a href="#">04. Contre indications</a>
-        <a href="#">05. Qualités physique</a>
-        <a href="#">06. Motivations</a>
+
+            <a href="Pratiques.php">02. Pratiques</a>
+            <a href="Envies.php">03. Envies</a>
+            <a href="Eviter.php" >04. Contre indications</a>
+            <a href="Qualités.php">05. Qualités physique</a>
+            <a href="Motivations.php">06. Motivations</a>
     </div>
 
     <div class="info_utilisateur">

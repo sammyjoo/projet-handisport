@@ -26,7 +26,7 @@ button{
 
 
 .contenu{
-    margin-top: 100px;
+    margin-top: 50px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -235,7 +235,6 @@ button{
     font-size: 1.4rem;
     color: black;
 
-    margin-bottom: 20px;
 
     padding-top: 21px;
     height: 48px;
@@ -272,21 +271,28 @@ div.contenu div.info_handicap ul.buttons_form li.btn_3.effect.done {
 
 .btn_1{
     width: 350px;
+    margin-bottom: 20px;
+
 }
-.btn_2 button{
+.btn_2 {
     width: 250px;
+    margin-bottom: 20px;
+
 }
 .btn_3{
     width: 380px;
+    margin-bottom: 20px;
+
 }
 .btn_4{
     width: 430px;
-    margin-bottom: 60px;
+
 }
 
 .groupe_btn{
     display: flex;
     margin-left: 500px;
+    margin-top: 50px;
 }
 
 div.contenu div.groupe_btn a.button_retour{
@@ -337,6 +343,7 @@ div.contenu div.groupe_btn a.button_retour{
     background: white;
     color: red;
     font-family:Corpid E1s Cd ;
+    opacity: 80%;
 }
 
 .btn_eviter2 button{
@@ -398,7 +405,6 @@ div.contenu div.groupe_btn a.button_retour{
     font-family: Corpid E1s Cd light;
     font-style: light;
     font-size: 1rem;
-    color: rgba(255, 255, 255, 0.526);
 
     margin: 0;
     margin-bottom: 30px;
@@ -407,6 +413,11 @@ div.contenu div.groupe_btn a.button_retour{
 .btn_qualites{
     display: flex;
     align-items: center;
+}
+
+.btn_qualites button{
+    background: rgba(255, 255, 255, 0.526);
+
 }
 
 
@@ -428,7 +439,12 @@ div.contenu div.groupe_btn a.button_retour{
 
     margin-left: 20px;
     opacity: 50%;
+
+
+
+
 }
+
 
 
 
@@ -436,6 +452,12 @@ div.contenu div.groupe_btn a.button_retour{
     width: 80px;
 }
 
+.btn_qualites button:hover{
+    background: white;
+    opacity: 90%;
+    color: red;
+
+}
 /*--------------page 6 - motivations-------*/
 
 .info_motivations{
