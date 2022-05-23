@@ -11,7 +11,7 @@ include_once('../includes/header.php');
     <link rel="stylesheet" href="../assets/css/TTH.css">
 
     
-   <div class="contenu">
+   <div class="contenu contenu_tth">
        <h1>Répondez à ces brèves questions afin de connaître</h1>
         <h1>les sports adaptés correspondant le mieux</h1>
         <h1>à votre situation.</h1>
@@ -33,12 +33,23 @@ include_once('../includes/header.php');
 
 
        <div class="go">
-       <button id="check_action">C'EST PARTI</button>
+       <button id="check_action">C'EST PARTI <img src="../assets/img/fleche.svg" alt="fleche bouton"></button>
 
 
     </div>
-    <img src="../img/formulaire/AdobeStock_209126661.jpg" alt="">
+
+    <div class="go_img">
+    
+    <img class="course" src="../assets/img/formulaire/AdobeStock_128823582.jpg" alt="">
+    <img class="basket" src="../assets/img/formulaire/AdobeStock_209126661.jpg" alt="">
+    <img class="escrime" src="../assets/img/formulaire/AdobeStock_180468554.jpg" alt="">
+    </div>
       
+    <div class="design">
+    <img class="design" src="../assets/img/SVG/design.svg" alt="">
+    <img class="design" src="../assets/img/SVG/design.svg" alt="">
+    <img class="design" src="../assets/img/SVG/design.svg" alt="">
+    </div>
 
 
 

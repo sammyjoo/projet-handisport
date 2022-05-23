@@ -35,6 +35,8 @@ button{
 
 }
 
+
+
 .choix_idee{
     display: flex;
 }
@@ -80,8 +82,32 @@ button{
     font-size: 15px;
     color: white;
     cursor: pointer;
+    z-index: 60;
+position: relative;
 }
 
+.go img{
+    height: 12px;
+    margin-left: 10px;
+
+
+}
+
+.go_img{
+    z-index: 30;
+    position: relative;
+}
+
+.design img{
+height: 330px;
+opacity: 40%;
+margin-top: -340px;
+
+}
+
+.design{
+    display: flex;
+}
 .choix_idee{
     display: flex;
     align-items: center;
@@ -142,6 +168,25 @@ button{
     -ms-transform: translateX(26px);
     transform: translateX(26px);
   }
+
+  .contenu .course, .contenu .escrime{
+      height: 250px;
+  }
+
+  .contenu .basket{
+      z-index: 30;
+      position: relative;
+  }
+
+  .contenu .course{
+    margin-right: -50px;
+  }
+
+  .contenu .escrime{
+    margin-left: -50px;
+  }
+
+
   
   /* Rounded sliders */
   .slider.round {
@@ -151,6 +196,7 @@ button{
   .slider.round:before {
     border-radius: 50%;
   }
+
 
   /*----------------Page 1-----------------------*/
 
@@ -508,3 +554,6 @@ div.contenu div.groupe_btn a.button_retour{
     margin-bottom: 10px;
 }
 
+.contenu_tth{
+    margin-bottom: 0px;
+}

@@ -1,0 +1,160 @@
+/* ------ Choix final ------- */
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+    background: #24386B;
+}
+
+.contenu{
+    margin-top: 70px;
+    color: white;
+
+    
+
+}
+
+h1{
+
+    font-family: gobold;
+    font-style: italic;
+    font-size: 2rem;
+    margin-left: 130px;
+}
+
+.btn_selection{
+    margin-bottom: 90px;
+    margin-left: 130px;
+
+}
+
+.btn_selection a{
+    font-family: Corpid E1s Cd;
+    color: white;
+}
+
+.btn_selection a:hover{
+    color: #F7CF37;
+    
+}
+
+
+.btn_selection > a > img{
+
+    width: 20px;
+    margin-left: 10px;
+        
+    }
+
+._g img{
+    margin: 0;
+    margin-right: 10px;
+}
+
+.choix_1{
+    display: flex;
+    align-content: center;
+
+    margin-bottom: 90px;
+}
+
+
+.result button{
+
+    cursor: pointer;
+
+    height: 200px;
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+    background: white;
+
+
+
+}
+
+
+
+.rang p{
+    font-family: Corpid E1s Cd;
+    font-size: 20px;
+    color: black;
+
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.rang img{
+    
+    width: 80px;
+}
+
+.n1 p{
+ font-family: gobold;
+ font-size: 8rem;
+ padding-left: 100px;
+}
+.n1{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    align-items:center ;
+
+    border: none;
+    border-radius: 0px 30px 30px 0px;
+    background:#F7CF37;
+
+    margin-right: 90px;
+}
+
+.modifier{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: Corpid E1s Cd;
+
+    margin-bottom: 90px;
+    margin-left: 200px;
+    padding-top: 30px;
+
+    border-top: solid white 1px;
+    width: 1000px;
+}
+
+.modifier p{
+    font-size: 1.8rem;
+
+    margin: 0;
+}
+
+button{
+    cursor: pointer;
+
+    height: 50px;
+    width: 250px;
+
+
+    background: #E40000;
+    border: none;
+    border-radius: 30px;
+
+    font-family: Corpid E1s Cd light;
+    font-size: 15px;
+    color: white;
+    
+    margin-left: 30px;
+}
+
+.btn2 img{
+ width: 120px;
+}
+
+.btn_modif{
+    margin-top: 70px;
+}

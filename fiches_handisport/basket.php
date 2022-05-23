@@ -22,9 +22,6 @@ include_once('../includes/header.php');
         </h1>
     </div>
 
-    <div class="retour">
-    <a href="#">RETOUR</a>
-    </div>
 
     <div class="histoire">
         
