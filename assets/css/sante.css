@@ -1,0 +1,159 @@
+/* Feuille de styles santé et bien-etre*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 30px;
+
+    overflow-x: hidden;
+}
+
+.contenu_img img{
+    width: 1450px;
+}
+
+.contenu1{
+    height: 150px;
+    background: #24386B;
+    color: white;
+
+}
+
+.contenu1 h1{
+    font-family: gobold;
+    font-style: italic;
+    font-size: 3rem;
+    color: #FFCC00;
+    margin-left: 90px;
+    padding-top: 40px;
+    position: relative;
+    z-index: 30;
+}
+
+.design img{
+    width: 350px;
+    margin: 0;
+    opacity: 10%;
+    margin-top: -134px;
+}
+
+.contenu2{
+    margin-top: 40px;
+    display: flex;
+
+flex-direction: column;
+margin-left: 100px;
+}
+
+.contenu2 h2{
+    font-size: 1.8rem;
+    font-family: gobold;
+    color: #24386B;
+
+}
+
+.contenu2 h3{
+    font-size: 1.5rem;
+    font-family:  Corpid E1s Cd bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+
+.contenu2 p{
+    font-size: 1rem;
+    font-family:  Corpid E1s Cd;
+    margin-bottom: 5px;
+
+    
+}
+
+.liste{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.contenu_listes{
+    margin-left: 20px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contenu3{
+    height: 300px;
+    background: #24386B;
+    color: white;
+}
+
+.contenu3 h1{
+    font-family: gobold;
+    font-style: italic;
+    font-size: 3rem;
+    color: #FFCC00;
+    margin-left: 75px;
+    padding-top: 40px;
+    position: relative;
+    z-index: 30;
+}
+
+.contenu3 p{
+    margin-left: 75px;
+    font-family:  Corpid E1s Cd;
+    font-size: 1.3rem;
+
+}
+
+.contenu4{
+    margin-left: 75px;
+    margin-bottom: 90px;
+    font-family:  Corpid E1s Cd;
+}
+
+.contenu4 p {
+    font-size: 1.3rem;
+    margin-bottom: 9px;
+}
+
+.contenu4 ul li p{
+    margin-top: 2px;
+    margin-bottom: 3px;
+    font-size: 1rem;
+    
+}
+
+.contenu4 h2{
+    font-family:  Corpid E1s Cd heavy;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color:#24386B;
+
+
+}
+
+.data{
+    display: flex;
+    margin-bottom: 9px;
+}
+.contenu4 a {
+    background: red;
+    color: white;
+    margin-left: 20px;
+    border: none;
+    border-radius: 30px;
+    font-family:Corpid E1s Cd light;
+    font-size: 1.5rem;
+}
+

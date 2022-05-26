@@ -22,7 +22,7 @@
                 <a href="#">Handisports</a>
                 <ul >
                     <li >
-                        <a href="#"> Santé et bien-être</a>
+                        <a href="<?= URL ?>sante.php"> Santé et bien-être</a>
                     </li>
                     <li >
                         <a href="<?= URL ?>handisports.php"> Discipline</a>

@@ -14,11 +14,10 @@ include('../includes/header.php');
     <link rel="stylesheet" href="../assets/css/data.css">
 
 <div class="contenu_dataviz">
-
-<div class="intro_data">
-
-<div class="ecosysteme">
-        <h1>L'ecosystème du futur pratiquant d'handisport</h1><br>
+<div class="contenu_img">
+    <img src="../assets/img/sante/transport.jpg" alt="">
+    <div class="ecosysteme">
+        <h1>L'ecosystème du futur <br> pratiquant d'handisport</h1><br>
 
         <h2>Le développement de la pratique sportive des PSH passe par l’identification des éléments
             qui entourent le pratiquant, et qui peuvent, à un instant de son parcours, apparaître
@@ -27,8 +26,12 @@ include('../includes/header.php');
             <br><br>
             Pour visualiser la difficulté sur l'ecosystème en transport avec le nombre de trafic en région parisienne,<br>
             Nous avons mit en place une data visualisation en général sur le trafic parisiens avec la data de la RATP
-            <br> <a href="https://data.ratp.fr/explore/?sort=modified">Voir l'open data RATP</a>
+            <br> <a href="https://data.ratp.fr/explore/?sort=modified" target="_blank" >Voir l'open data RATP</a>
 </div>
+</div>
+
+
+<div class="intro_data">
 
 <div class="IDF_RATP">
             <h1>En Île-de-France</h1>
@@ -36,12 +39,20 @@ include('../includes/header.php');
 chemin de fer
 (AAH, PCH, pension d’invalidité…) peuvent, sous conditions de ressources, emprunter gratuitement transports publics du réseau RATP dans l’ensemble de la région parisienne.</h2>
         </h2>
-        <a href="https://www.mes-allocs.fr/guides/aide-au-transport/aide-au-transport-personne-handicapee/#:~:text=Pour%20les%20personnes%20porteurs%20d%E2%80%99un%20handicap%20habitant%20en,r%C3%A9seau%20RATP%20dans%20l%E2%80%99ensemble%20de%20la%20r%C3%A9gion%20parisienne.">Aide de la RATP </a>
+        <a href="https://www.mes-allocs.fr/guides/aide-au-transport/aide-au-transport-personne-handicapee/#:~:text=Pour%20les%20personnes%20porteurs%20d%E2%80%99un%20handicap%20habitant%20en,r%C3%A9seau%20RATP%20dans%20l%E2%80%99ensemble%20de%20la%20r%C3%A9gion%20parisienne." target="_blank" >Aide de la RATP </a>
 
 
-            <br>
+
             </div>
-            </div>
+        </div>
+
+        <div class="design">
+<img src="../assets/img/SVG/design.svg" alt="">
+<img src="../assets/img/SVG/design.svg" alt="">
+<img src="../assets/img/SVG/design.svg" alt="">
+<img src="../assets/img/SVG/design.svg" alt="">
+
+</div>
 
     <div class="top">
         <h2>Une visualisation sur les 20 plus grand trafic du réseau RATP</h2>

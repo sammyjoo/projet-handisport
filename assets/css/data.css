@@ -1,4 +1,4 @@
-/* Feuille de styles dataviz*/
+/* Feuille de styles dataviz */
 
 *{
     margin: 0px;
@@ -13,8 +13,66 @@ body{
     overflow-x: hidden;
 }
 
+.contenu_img{
+    width: 1400px;
+}
+
+.contenu_img .ecosysteme{
+    margin-top: -600px;
+}
+
+.contenu_img .ecosysteme h1{
+font-size: 4rem;
+margin-bottom: 50px;
+margin-left: 100px;
+}
+
+.contenu_img .ecosysteme h2{
+    color: white;    
+    font-family: Corpid E1s Cd;
+    font-size: 1.3rem;
+    width: 500px;
+    margin-left: 100px;
+}
+
+.contenu_img .ecosysteme a{
+
+        margin-top: 30px;
+        cursor: pointer;
+        height: 55px;
+        width: 300px;
+        border: none;
+        border-radius: 45px;
+        background: rgba(255, 255, 255, 0.35);
+        font-family: Corpid E1s Cd;
+        font-size: 1.4rem;
+        color: black;
+        height: 48px;
+}
+.contenu_img .ecosysteme a:hover{
+
+    background: red;
+    color: white;
+}
+
+.IDF_RATP a{
+
+    margin-top: 30px;
+    cursor: pointer;
+    height: 55px;
+    width: 300px;
+    border: none;
+    border-radius: 45px;
+    background: red;
+    font-family: Corpid E1s Cd;
+    font-size: 1.4rem;
+    color: white;
+    height: 48px;
+}
+
+
 .contenu_dataviz{
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .intro_data{
@@ -22,6 +80,12 @@ body{
     padding-top: 40px;
     padding-bottom: 40px;
  
+}
+.design img{
+    width: 350px;
+    margin: 0;
+    opacity: 20%;
+    margin-top: -290px;
 }
 
 .intro_data{
@@ -33,13 +97,13 @@ body{
 
 .IDF_RATP{
     margin-top: 60px;
+    margin-left: 80px;
+
 }
 
 
 
-div{
-    text-align: center;
-}
+
 
 div h1{
 
