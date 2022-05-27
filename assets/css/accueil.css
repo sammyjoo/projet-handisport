@@ -472,3 +472,168 @@ font-style: italic;
 .federation_handisport img{
     width: 250px;
 }
+
+.responsive{
+    visibility: hidden;
+
+}
+
+/* -----------------------------RESPONSIVE-------------------------------------*/
+
+@media(max-width:980px){
+    .responsive{
+        visibility: visible;
+    
+    }
+
+    body {
+        overflow-x: hidden;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .handi_equipement {
+        background-image: url(../img/accueil/handi_equipement.jpg);
+        background-position-y: -37px;
+        background-size: 1028px;
+        font-family: Rockstar;
+        margin-bottom: 31px;
+        margin-top: 60px;
+        height: 300;
+        width: 700;
+        border: none;
+        border-radius: 30px;
+        background-position-x: -176px;
+      }
+      .handi_equipement h1 {
+        margin: 0;
+          margin-left: 0px;
+        margin-left: 0px;
+        color: white;
+        font-size: 100px;
+        margin-left: 15px;
+        padding: 15px;
+          padding-top: 15px;
+        padding-top: 0px;
+      }
+      .handi_equipement h2 {
+        color: white;
+        font-size: 50px;
+        margin-left: 29px;
+        margin-top: -51px;
+      }
+      .handi_equipement h3 {
+        font-family: Gobold;
+        font-size: 23px;
+        color: #F7CF37;
+        margin-left: -7px;
+        margin-top: -53px;
+      }
+      .handi_equipement button {
+        margin-top: -10px;
+        height: 45px;
+        width: 256px;
+        border: solid 1px white;
+        border-radius: 10px;
+        background: none;
+        font-family: Corpid E1s Cd light;
+        font-size: 23px;
+        color: white;
+        margin-left: 30px;
+        margin-top: -20px;
+        cursor: pointer;
+        transition: all 0.2s linear 0s;
+      }
+      .handi_equipement a {
+        text-decoration: none;
+        color: white;
+        opacity: 70%;
+        font-family: Corpid E1s Cd light;
+        font-size: 18px;
+        margin-left: 25px;
+        margin-top: 5px;
+      }
+
+      .three_blocs {
+        display: flex;
+        height: 400px;
+        align-content: space-between;
+        justify-content: space-between;
+        width: 700px;
+      }
+
+      .box1 {
+        background-image: url(../img/accueil/trouve_ton_handisport.jpg);
+        width: 215px;
+        background-size: 300px;
+        border: none;
+        border-radius: 30px;
+        height: 200px;
+      }
+
+      .box2 {
+        background-image: url(../img/accueil/les_handisports.jpg);
+        width: 215px;
+        background-size: 290px;
+        border: none;
+        border-radius: 30px;
+        height: 200px;
+        background-position-x: -40px;
+      }
+      .box3 {
+        background-image: url(../img/accueil/club_handisport.jpg);
+        width: 215px;
+        background-size: 300px;
+        border: none;
+        border-radius: 30px;
+        height: 200px;
+      }
+
+      .white_opacity {
+        background: none;
+        margin-top: 193px;
+      }
+      .box1 h2, .box2 h2, .box3 h2 {
+        font-family: gobold;
+        font-size: 1.2rem;
+        margin-bottom: 0;
+      }
+
+      .bien_etre {
+        margin-top: -82px;
+        background-image: url(../img/accueil/bien_etre.jpg);
+        background-position-x: 0px;
+        height: 400px;
+        width: 700px;
+        border: none;
+        border-radius: 30px;
+        background-size: 1199px;
+        background-position-y: -97px;
+      }
+
+      .position_bien_etre {
+        padding-top: 18px;
+        margin-left: 35px;
+      }
+
+      .bien_etre p {
+        font-family: Corpid E1s Cd light;
+        color: white;
+        font-size: 1.6rem;
+        margin-top: -8.4px;
+      }
+
+
+      .noResponsive{
+          display: none;
+      }
+
+      b{
+        display: none;
+
+      }
+}

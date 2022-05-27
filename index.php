@@ -31,8 +31,8 @@ if(!$mysqli) exit('Connexion MySQL non accomplie!');
 
         <h2> QUIPEMENTS</h2>
 
-        <h3>vendez vos équipements handisport</h3>
-
+        <h3 class="noResponsive">vendez vos équipements handisport</h3>
+        <h3 class="responsive">vendez vos<br> équipements handisport</h3>
         <div class="button_equipement">
             <button class="effect_buttons" >Vends maintenant</button>
             <a href="http://handiquipements.local/">Découvrir comment ça marche <img src="assets/img/fleche.svg" alt="fleche bouton"></a>
@@ -136,6 +136,7 @@ if(!$mysqli) exit('Connexion MySQL non accomplie!');
             </div>
         </div>
     </div>
+
 
     <?php
     include_once('./includes/footer.php');

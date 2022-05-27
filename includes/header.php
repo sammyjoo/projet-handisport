@@ -13,8 +13,18 @@
 <body>
 
     <header>
-        <img src="<?= URL ?>assets/img/logo_handi_discipline.svg" alt="logo_handi_discipline" onclick="window.location.href = '<?= URL ?>index.php'">
+        <img class="desk" src="<?= URL ?>assets/img/logo_handi_discipline.svg" alt="logo_handi_discipline" onclick="window.location.href = '<?= URL ?>index.php'">
+        <img class="responsive" src="<?= URL ?>assets/img/logo_discipline_responsive_color.svg" alt="logo_handi_discipline" onclick="window.location.href = '<?= URL ?>index.php'">
 
+
+        <nav id="nav">
+  <div class="navbar">
+    <a href="#" id="hamburger-button">
+        <span class="hamburger-icon_top"></span>
+        <span class="hamburger-icon"></span>
+        <span class="hamburger-icon_bottom"></span>
+    </a>
+  </div>
         <ul id="nav" class="drop">
            <li ><a href="<?= URL ?>trouve_ton_handisport/TTH.php">Trouve ton handisport</a></li> 
 
@@ -34,7 +44,7 @@
             <li ><a href="#">Paralympique</a></li>
             <li ><a href="http://handiquipements.local/" target="_blank">Handi'quipement</a></li>
         </ul>
-
+        </nav>
 
 
 
