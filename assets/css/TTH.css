@@ -557,3 +557,9 @@ div.contenu div.groupe_btn a.button_retour{
 .contenu_tth{
     margin-bottom: 0px;
 }
+
+/* -----------------------------RESPONSIVE-------------------------------------*/
+
+@media(max-width:980px){
+    
+}

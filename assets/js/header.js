@@ -13,12 +13,10 @@ for (var i = 0; i < links.length; i++) {
   });
 }
 
-// Click Functionality
 hamburgerButton.addEventListener('click', function () {
   toggleNav('click');
 });
 
-// Hammer.js Swipe Functionality
 var mc = new Hammer.Manager(body);
 
 var Swipe = new Hammer.Swipe();

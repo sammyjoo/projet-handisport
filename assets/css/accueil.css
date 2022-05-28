@@ -400,7 +400,16 @@ font-style: italic;
 
 .insta{
     background: #1C1C1C;
+    background-image: url(../img/SVG/design.svg);
    
+}
+.insta_img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .insta h2, h3{
@@ -410,6 +419,7 @@ font-style: italic;
 }
 .insta h2{
     font-family: gobold;
+    font-style: italic;
     margin: 0;
     padding-top: 20px;
 }
@@ -441,6 +451,8 @@ font-style: italic;
     font-family: Corpid E1s Cd light;
     font-size: 25px;
     color: white;
+
+    margin-left: 60px;
 }
 
 
@@ -478,7 +490,7 @@ font-style: italic;
 
 }
 
-/* -----------------------------RESPONSIVE-------------------------------------*/
+/* -----------------------------RESPONSIVE - Tablette -------------------------------------*/
 
 @media(max-width:980px){
     .responsive{
@@ -627,6 +639,91 @@ font-style: italic;
         margin-top: -8.4px;
       }
 
+      .club_proximite {
+        height: 350px;
+        background: #24386B;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        border-radius: 30px;
+        width: 700px;
+      }
+      .club_proximite p {
+        margin-top: 0;
+        font-size: 3rem;
+        font-family: gobold;
+        font-style: italic;
+        margin: 0;
+      }
+      .club_proximite button {
+        margin-top: 22px;
+        width: 504px;
+        height: 430px;
+        height: 57px;
+        font-size: 1rem;
+        margin-top: 10px;
+        border: solid 1px white;
+        border-radius: 10px;
+        background: none;
+        font-family: Corpid E1s Cd light;
+        font-size: 25px;
+        color: white;
+      }
+
+      .insta_description{
+        display: none;
+      }
+
+      .insta {
+        background: white;
+        background-image: none;
+      }
+
+      .insta button{
+          display: none;
+      }
+
+      .insta_img {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 60px;
+        width: 700px;
+      }
+
+      .insta img {
+        height: 200px;
+        margin-bottom: 30px;
+        border: none;
+        border-radius: 30px;
+      }
+
+      .partenaires h1 {
+        display: none;
+      }
+
+      .nike img {
+        width: 100px;
+      }
+
+      .ministere_sport img {
+        width: 100px;
+      }
+
+      .federation_handisport img {
+        width: 184px;
+      }
+
+      .logos_partenaires img {
+        margin-right: 100px;
+      }
+
+
 
       .noResponsive{
           display: none;
@@ -636,4 +733,233 @@ font-style: italic;
         display: none;
 
       }
+}
+
+/* -----------------------------RESPONSIVE - mobile -------------------------------------*/
+
+@media(max-width: 670px){
+
+    .handi_equipement {
+        background-image: url(../img/accueil/handi_equipement.jpg);
+        background-position-y: -30px;
+        background-size: 999px;
+        font-family: Rockstar;
+        margin-bottom: 31px;
+        margin-top: 60px;
+        height: 300;
+        width: 360;
+        border: none;
+        border-radius: 30px;
+        background-position-x: -424px;
+      }
+
+      .handi_equipement button {
+        height: 61px;
+        width: 326px;
+        border: none;
+        border-radius: 10px;
+        background: black;
+        opacity: 80%;
+        font-family: Corpid E1s Cd light;
+        font-size: 23px;
+        color: black;
+        margin-left: 18px;
+        margin-top: 0;
+        cursor: pointer;
+        transition: all 0.2s linear 0s;
+      }
+      .handi_equipement button:hover {
+        
+        color: red;
+      }
+
+      .button_equipement{
+      
+        padding-top: 0px;
+        margin-top: -72px;
+      }
+
+      .handi_equipement h1 {
+        margin: 0;
+        color: white;
+        font-size: 40px;
+        margin-left: 15px;
+        padding: 15px;
+        padding-top: 266px;
+      }
+      .handi_equipement h2 {
+        color: white;
+        font-size: 20px;
+        margin-left: 29px;
+        margin-top: -29px;
+      }
+      .handi_equipement h3 {
+        font-family: Gobold;
+        font-size: 18px;
+        color: #F7CF37;
+        margin-left: 102px;
+        margin-top: -73px;
+      }
+
+      .handi_equipement h1, h2, h3{
+          position: relative;
+          z-index: 20;
+      }
+
+      .three_blocs{
+          margin-top: 20px;
+        margin-left: 340px;
+      }
+
+      .bien_etre {
+        margin-top: -82px;
+        background-image: url(../img/accueil/bien_etre.jpg);
+        background-position-x: -14px;
+        height: 300;
+        width: 360;
+        border: none;
+        border-radius: 30px;
+        background-size: 701px;
+        background-position-y: -8px;
+      }
+      .bien_etre h1 {
+        margin: 0;
+        font-family: gobold;
+        font-style: italic;
+        color: white;
+        font-size: 3rem;
+      }
+
+      .bien_etre h2 {
+        margin: 0;
+        font-family: gobold;
+        font-style: italic;
+        color: #F7CF37;
+        font-size: 3rem;
+      }
+
+      .bien_etre p {
+        font-family: Corpid E1s Cd light;
+        color: white;
+        font-size: 1rem;
+        margin-top: -8.4px;
+      }
+
+      .temoignages{
+        height: 450px;
+      }
+
+      .temoignages p {
+        font-family: gobold;
+        font-style: italic;
+        font-size: 1.5rem;
+      }
+
+      .temoignages .active_btn {
+        cursor: pointer;
+        height: 55px;
+        width: 260;
+        border: solid 1px black;
+        border-radius: 10px;
+        background: none;
+        font-family: Corpid E1s Cd light;
+        font-size: 23px;
+        color: black;
+        margin-top: 30px;
+      }
+
+      p.red:nth-child(1) {
+        font-size: 65px;}
+
+        p.red:nth-child(3) {
+            font-size: 65px;
+            margin-right: 34px;
+        }
+
+        .club_proximite {
+            height: 200px;
+            background: #24386B;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            border-radius: 30px;
+            width: 360px;
+          }
+
+          .club_proximite p {
+            font-size: 1.8rem;
+          }
+
+          .club_proximite button {
+            margin-top: 22px;
+            width: 300px;
+            height: 430px;
+            height: 57px;
+            font-size: 1rem;
+            margin-top: 10px;
+            border: solid 1px white;
+            border-radius: 10px;
+            background: none;
+            font-family: Corpid E1s Cd light;
+            font-size: 25px;
+            color: white;
+          }
+
+          .insta{
+            margin-left: 340px;
+          }
+
+          .logos_partenaires {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+            width: 300px;
+          }
+
+          .logos_partenaires img {
+            margin:0;
+          }
+
+          .ministere_sport img {
+            width: 76px;
+          }
+
+          .nike img {
+            width: 88px;
+          }
+
+          .federation_handisport img {
+            width: 112px;
+          }
+
+      .handi_equipement a{
+          display: none;
+      }
+
+
+
+
+    .insta_description{
+        display: none;
+      }
+    .insta button{
+        display: none;
+    }
+
+    .partenaires h1 {
+        display: none;
+      }
+
+    .noResponsive{
+        display: none;
+    }
+
+    b{
+      display: none;
+
+    }
 }

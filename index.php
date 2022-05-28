@@ -91,7 +91,10 @@ if(!$mysqli) exit('Connexion MySQL non accomplie!');
     </div>
 
     <div class="club_proximite">
-        <p>Trouvez votre structure sportive à proximité</p>
+        <p class="noResponsive">Trouvez votre structure sportive à proximité</p>
+        <p class="responsive">Trouvez votre structure </p>
+        <p class="responsive">sportive à proximité</p>
+
         <input type="text">
         <button class="effect_buttons"> Recherche </button>
     </div>
@@ -107,10 +110,8 @@ if(!$mysqli) exit('Connexion MySQL non accomplie!');
         <img src="assets/img/accueil/IMG_0634.png" alt="insta">
         <img src="assets/img/accueil/IMG_0635.PNG" alt="insta">
         <img src="assets/img/accueil/IMG_0636.PNG" alt="insta">
-        <img src="assets/img/accueil/IMG_0633.jpg" alt="insta">
-        <img src="assets/img/accueil/IMG_0634.png" alt="insta">
-        <img src="assets/img/accueil/IMG_0635.PNG" alt="insta">
-        <img src="assets/img/accueil/IMG_0636.PNG" alt="insta">
+
+    
          </div>
 
 
