@@ -64,7 +64,7 @@ include_once('../includes/header.php');
     
 
 </div>
-    <button class="button_cache" onclick="javascript:montrerCacher(document.getElementById('p'));">More Learn <img src="../img/fleche_noir.svg" alt="fleche bouton"></div>
+    <button class="button_cache" onclick="javascript:montrerCacher(document.getElementById('p'));">More Learn <img src="../assets/img/fleche_jaune.svg" alt="fleche bouton"></div>
 
 </div>
 
@@ -104,7 +104,7 @@ include_once('../includes/header.php');
         
 
     </div>
-    <a href="#" class="icon_fleche">Voir les articles <img src="../assets/img/fleche_jaune.svg" alt="fleche bouton"></a>
+    <a href="http://handiquipements.local/boutique/" target="_blank" class="icon_fleche">Voir les articles <img src="../assets/img/fleche_jaune.svg" alt="fleche bouton"></a>
 </div>
 
 <div class="intro">

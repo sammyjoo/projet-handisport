@@ -170,3 +170,51 @@ color: white;
     margin-top: 30px;
 
 }
+
+/* -----------------------------RESPONSIVE  -------------------------------------*/
+
+@media(max-width:980px){
+    .newsletter{
+        display: none;
+    }
+
+    .nav {
+        background: #303132;
+        color: white;
+        display: flex;
+        align-items: center;
+        height: 300px;
+        border: none;
+        border-radius: 30px 30px 0px 0px;
+      }
+
+      .reseaux_sociaux {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0px;
+        padding-right: 6px;
+        margin-top: 30px;
+      }
+
+      .gauche {
+        flex: 1;
+        border-right: solid 1px;
+        margin-right: 40px;
+      }
+
+      .nav_bar img {
+        display: none;
+      }
+
+      .left_mail{
+          display: none;
+      }
+
+      .left_mobile{
+          display: none;
+      }
+
+      .logo_accueil{
+          display: none;
+      }
+}

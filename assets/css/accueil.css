@@ -373,6 +373,7 @@ div.temoignages div.commentaire div p b{
 font-size: 2rem;
 font-family: gobold;
 font-style: italic;
+margin-bottom: -19px;
 }
 
 .club_proximite input{

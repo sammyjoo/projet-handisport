@@ -48,6 +48,12 @@ header .responsive{
 
 }
 
+ul.drop ul {
+  background: white;
+  border: none;
+  border-radius: 10px;
+}
+
 
  a{
     text-decoration: none;
@@ -90,6 +96,10 @@ li a:hover{ color:#F7CF37;}
   color: white ;
 }
 
+#nav{
+  padding-bottom: 14px;
+}
+
 
 /* -----------------------------RESPONSIVE-------------------------------------*/
 
@@ -109,6 +119,9 @@ li a:hover{ color:#F7CF37;}
     visibility: visible;
     height: 50px;
   
+  }
+  #nav{
+    padding-bottom: 0px;
   }
 
   nav{
