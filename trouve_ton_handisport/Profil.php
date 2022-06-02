@@ -28,7 +28,7 @@ include_once('../includes/header.php');
     <p>Je me déplace et/ou je veux pratiquer</p>
     
     <ul id="nav" class="drop">
-    <li><a href="#">Je choisis</a>
+    <li><a href="#" style="/*! text-underline-position: left; */text-decoration: underline;">Je choisis</a>
         <ul>
             <li><a href="#">debout</a></li>
             <li><a href="profil_assis.php">en fauteuil / assis</a></li>

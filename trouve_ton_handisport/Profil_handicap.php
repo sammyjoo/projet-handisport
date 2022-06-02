@@ -25,7 +25,7 @@ include_once('../includes/header.php');
     </h1>
     <h3>PLUSIEURS RÉPONSES POSSIBLES</h3>
     
-    <ul class="buttons_form">
+    <ul id='button_ev' class="buttons_form">
     <li class="btn_1 effect ">Je suis en fauteuil électrique</li>
     <li class="btn_2 effect">Je suis hémiparétique</li>
     <li class="btn_3 effect">Atteinte des membres supérieurs</li>
@@ -33,8 +33,9 @@ include_once('../includes/header.php');
     </ul>
 
     <style>
-        html body div.contenu div.info_handicap ul.buttons_form li.btn_2.effect.done {
-  background: #CCFF99;
+        .effect.done {
+  background: white;
+  color: red;
 }
     </style>
  
@@ -53,8 +54,8 @@ include_once('../includes/header.php');
    </div>
    
    <script>
-       let list = document.querySelector('ul');
-list.addEventListener('click', function(ev) {
+       let list = document.querySelector('#button_ev');
+list.addEventListener('click', function(ev) { console.log(ev.target.innerHTML)
   if( ev.target.tagName === 'LI') {
      ev.target.classList.toggle('done');
   }
@@ -62,7 +63,6 @@ list.addEventListener('click', function(ev) {
 
 console.log(list)
 
-document.getElementsByClassName
 
    </script>   
 

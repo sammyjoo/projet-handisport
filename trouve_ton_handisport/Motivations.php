@@ -25,19 +25,19 @@ include_once('../includes/header.php');
     </h1>
     <h3>3 RÉPONSES MAXIMUM</h3>
     
-    <div class="btn_contenu">
-    <form class="buttons_motivations" action="">
-    <div class="btn_A"><button>Me sentir bien</button></div>
-    <div class="btn_B"><button>Me remettre au sport</button></div>
-    <div class="btn_C"><button>Me dépasser</button></div>
-    <div class="btn_D"><button>Me destresser</button></div>
+    <div  class="btn_contenu">
+    <form id="button_ev" class="buttons_motivations" action="">
+    <div class="btn_A"><button class="effect">Me sentir bien</button></div>
+    <div class="btn_B"><button class="effect">Me remettre au sport</button></div>
+    <div class="btn_C"><button class="effect">Me dépasser</button></div>
+    <div class="btn_D"><button class="effect">Me destresser</button></div>
     </form>
 
     <form class="buttons_motivations" action="">
-        <div class="btn_A"><button>Gagner en autonomie</button></div>
-        <div class="btn_B"><button>Rencontrer des gens</button></div>
-        <div class="btn_C"><button>Performer</button></div>
-        <div class="btn_D"><button>Perdre du poids</button></div>
+        <div class="btn_A"><button class="effect">Gagner en autonomie</button></div>
+        <div class="btn_B"><button class="effect">Rencontrer des gens</button></div>
+        <div class="btn_C"><button class="effect">Performer</button></div>
+        <div class="btn_D"><button class="effect">Perdre du poids</button></div>
         </form>
     </div>
     </div>
@@ -54,6 +54,33 @@ include_once('../includes/header.php');
    
 
 
+
+   <style>
+        .effect.done {
+  background: white;
+  color: red;
+  opacity: 100%;
+  
+}
+    </style>
+   
+   <script>
+       let list = document.querySelector('#button_ev');
+       Array.from(list.children).forEach(button => {
+        button.addEventListener('click', () => {
+            button.classList.toggle('done');
+        });
+       });
+// list.addEventListener('click', function(ev) { console.log(ev.target.innerHTML)
+//   if( ev.target.tagName === 'EMPTY STRING') {
+//      ev.target.classList.toggle('done');
+//   }
+// }, false);
+
+console.log(list)
+
+
+   </script> 
 
    <?php
     include_once('../includes/footer.php');

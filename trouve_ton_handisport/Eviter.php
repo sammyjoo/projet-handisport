@@ -25,28 +25,28 @@ include_once('../includes/header.php');
             </h1>
             <h3>PLUSIEURS RÉPONSES POSSIBLES</h3>
 
-            <div class="btn_eviter">
-                <button class="btn_chocs">
+            <div id="button_ev" class="btn_eviter">
+                <button class="btn_chocs effect">
                     <img src="../assets/img/SVG/chocs_chutes_plongeons.svg" alt="">
                     Chocs, Chutes <br> et plongeons
                 </button>
 
-                <button class="btn_chocs">
+                <button class="btn_chocs effect">
                     <img src="../assets/img/SVG/efforts.svg" alt="">
                     Efforts violents
                 </button>
 
-                <button class="btn_chocs">
+                <button class="btn_chocs effect">
                     <img src="../assets/img/SVG/musculation.svg" alt="">
                     Travaille de musculation
                 </button>
 
-                <button class="btn_chocs">
+                <button class="btn_chocs effect">
                     <img src="../assets/img/SVG/aquatique.svg" alt="">
                     Activités,<br> aquatiques,<br> nautiques
                 </button>
             </div>
-            <div class="btn_eviter2">
+            <div class="btn_eviter2 effect">
                 <button>Rien, je suis prêt(e) a tout !</button>
             </div>
 
@@ -67,7 +67,34 @@ include_once('../includes/header.php');
 
 
 
+    </div>
 
+    <style>
+        .effect.done {
+  background: white;
+  color: red;
+  opacity: 100%;
+  
+}
+    </style>
+   
+   <script>
+       let list = document.querySelector('#button_ev');
+       Array.from(list.children).forEach(button => {
+        button.addEventListener('click', () => {
+            button.classList.toggle('done');
+        });
+       });
+// list.addEventListener('click', function(ev) { console.log(ev.target.innerHTML)
+//   if( ev.target.tagName === 'EMPTY STRING') {
+//      ev.target.classList.toggle('done');
+//   }
+// }, false);
+
+console.log(list)
+
+
+   </script>   
 
     <?php
     include_once('../includes/footer.php');

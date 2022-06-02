@@ -25,38 +25,38 @@ include_once('../includes/header.php');
             </h1>
             <h3>PLUSIEURS RÉPONSES POSSIBLES</h3>
 
-            <div class="btn_qualites">
-                <button class="btn_physique">
+            <div id="button_ev" class="btn_qualites">
+                <button class="btn_physique effect">
                     <img src="../assets/img/SVG/force.svg" alt="">
                     Force
                 </button>
 
-                <button class="btn_physique">
+                <button class="btn_physique effect">
                     <img src="../assets/img/SVG/vitesse.svg" alt="">
                     Vitesse
                 </button>
 
-                <button class="btn_physique">
+                <button class="btn_physique effect">
                     <img src="../assets/img/SVG/souplesse.svg" alt="">
                     Souplesse
                 </button>
 
-                <button class="btn_physique">
+                <button class="btn_physique effect">
                     <img src="../assets/img/SVG/endurance.svg" alt="">
                     Endurance
                 </button>
 
-                <button class="btn_physique">
+                <button class="btn_physique effect">
                     <img src="../assets/img/SVG/equilibre.svg" alt="">
                     Equilibre
                 </button>
 
-                <button class="btn_physique">
+                <button class="btn_physique effect">
                     <img src="../assets/img/SVG/adresse.svg" alt="">
                     Adresse
                 </button>
             </div>
-            <div class="btn_eviter2">
+            <div class="btn_eviter2 effect">
                 <button>Aucune, je passe à la question suivante !</button>
             </div>
 
@@ -78,7 +78,32 @@ include_once('../includes/header.php');
 
 
 
+    <style>
+        .effect.done {
+  background: white;
+  color: red;
+  opacity: 100%;
+  
+}
+    </style>
+   
+   <script>
+       let list = document.querySelector('#button_ev');
+       Array.from(list.children).forEach(button => {
+        button.addEventListener('click', () => {
+            button.classList.toggle('done');
+        });
+       });
+// list.addEventListener('click', function(ev) { console.log(ev.target.innerHTML)
+//   if( ev.target.tagName === 'EMPTY STRING') {
+//      ev.target.classList.toggle('done');
+//   }
+// }, false);
 
+console.log(list)
+
+
+   </script>  
     <?php
     include_once('../includes/footer.php');
 ?>

@@ -249,6 +249,15 @@ margin-top: -340px;
 .info_utilisateur ul.drop li:hover > ul { visibility: visible }
 .info_utilisateur li a:hover{ color:#F7CF37;}
 
+ul.drop ul {
+    background: rgba(255, 255, 255, 0.468);
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+
+
 /*--------------page 1 - mon handicap-------*/
 
 .info_handicap{

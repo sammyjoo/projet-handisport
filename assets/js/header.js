@@ -7,7 +7,7 @@ var links = document.querySelectorAll("nav li a");
 
 for (var i = 0; i < links.length; i++) {
   links[i].addEventListener("click", function (event) {
-    event.preventDefault();
+    // event.preventDefault();
 
     toggleNav('left');
   });
@@ -17,19 +17,19 @@ hamburgerButton.addEventListener('click', function () {
   toggleNav('click');
 });
 
-var mc = new Hammer.Manager(body);
+// var mc = new Hammer.Manager(body);
 
-var Swipe = new Hammer.Swipe();
+// var Swipe = new Hammer.Swipe();
 
-mc.add(Swipe);
+// mc.add(Swipe);
 
-mc.on('swiperight', function () {
-  toggleNav('right');
-});
+// mc.on('swiperight', function () {
+//   toggleNav('right');
+// });
 
-mc.on('swipeleft', function () {
-  toggleNav('left');
-});
+// mc.on('swipeleft', function () {
+//   toggleNav('left');
+// });
 
 // Toggle Nav
 function toggleNav(action) {

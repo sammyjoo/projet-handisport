@@ -426,8 +426,8 @@ margin-bottom: -19px;
 }
 
 .insta h3{
-    font-family:Corpid E1s Cd light;
-    color: red;
+    font-family:Corpid E1s Cd ;
+    color: white;
     margin: 0;
     margin-bottom: 40px;
 }
@@ -516,8 +516,8 @@ margin-bottom: -19px;
         font-family: Rockstar;
         margin-bottom: 31px;
         margin-top: 60px;
-        height: 300;
-        width: 700;
+        height: 300px;
+        width: 700px;
         border: none;
         border-radius: 30px;
         background-position-x: -176px;
@@ -747,8 +747,8 @@ margin-bottom: -19px;
         font-family: Rockstar;
         margin-bottom: 31px;
         margin-top: 60px;
-        height: 300;
-        width: 360;
+        height: 300px;
+        width: 360px;
         border: none;
         border-radius: 30px;
         background-position-x: -424px;
@@ -816,8 +816,8 @@ margin-bottom: -19px;
         margin-top: -82px;
         background-image: url(../img/accueil/bien_etre.jpg);
         background-position-x: -14px;
-        height: 300;
-        width: 360;
+        height: 300px;
+        width: 360px;
         border: none;
         border-radius: 30px;
         background-size: 701px;
