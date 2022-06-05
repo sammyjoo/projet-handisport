@@ -366,11 +366,140 @@ div.contenu div.groupe_btn a.button_retour{
     border-radius: 30px;
 }
 
+.btn_pratiques{
+    margin-top: 30px;
+}
+
+.btn_competition {
+    background-image: url(../img/formulaire/54_noir.png);
+    background-position-x: -122px;
+    background-size: 527px;
+    height: 353px;
+    width: 297px;
+  }
+
+  .btn_competition:enabled {
+    background-image: url(../img/formulaire/AdobeStock_180468554_btn.png);
+    background-position-x: -170px;
+    background-position-y: 0px;
+    background-size: 620px;
+    height: 400px;
+    width: 300px;
+    color: black;
+  }
+
+  .btn_competition p {
+    font-family: gobold;
+    font-style: italic;
+    font-size: 2.5rem;
+    margin: 0;
+    padding-top: 282px;
+  }
+
+  .btn_loisir {
+    background-image: url(../img/formulaire/73_noir.png);
+    background-position-x: -61px;
+    background-size: 527px;
+    height: 353px;
+    width: 297px;
+  }
+  .btn_loisir:focus {
+    background-image: url(../img/formulaire/AdobeStock_279221873_btn.png);
+    background-position-x: -100px;
+    background-position-y: 0px;
+    background-size: 620px;
+    height: 400px;
+    width: 300px;
+    color: black;
+  }
+
+  .btn_loisir p {
+    font-family: gobold;
+    font-style: italic;
+    font-size: 2.5rem;
+    margin: 0;
+    padding-top: 282px;
+  }
+  .btn_importe {
+    background-image: url(../img/formulaire/69_noir.png);
+    background-position-x: -122px;
+    background-size: 527px;
+    height: 353px;
+    width: 297px;
+  }
+  .btn_importe p {
+    font-family: gobold;
+    font-style: italic;
+    font-size: 2.5rem;
+    margin: 0;
+    padding-top: 282px;
+  }
+  .btn_importe:focus {
+    background-image: url(../img/formulaire/AdobeStock_299065569_btn.png);
+    background-position-x: -170px;
+    background-position-y: 0px;
+    background-size: 620px;
+    height: 400px;
+    width: 300px;
+    color: black;
+  }
+
+
 /*----- Page 3 - Envies -------*/
 
 .info_envies img{
     border-radius: 30px;
 }
+
+.btn_collectif {
+    background-image: url(../img/formulaire/525_noir.png);
+    background-position-x: -61px;
+    background-size: 527px;
+    height: 353px;
+    width: 297px;
+  }
+  .btn_collectif:enabled {
+    background-image: url(../img/formulaire/525_btn.png);
+    background-position-x: -100px;
+    background-position-y: -40px;
+    background-size: 620px;
+    height: 400px;
+    width: 300px;
+    color: black;
+  }
+
+  .btn_collectif p {
+    font-family: gobold;
+    font-style: italic;
+    font-size: 2.5rem;
+    margin: 0;
+    padding-top: 282px;
+  }
+
+  .btn_individuel {
+    background-image: url(../img/formulaire/82_noir.png);
+    background-position-x: -111px;
+    background-size: 527px;
+    height: 353px;
+    width: 297px;
+  }
+  .btn_individuel:focus {
+    background-image: url(../img/formulaire/82_btn.png);
+    background-position-x: -140px;
+    background-position-y: 0px;
+    background-size: 620px;
+    height: 400px;
+    width: 300px;
+    color: black;
+  }
+
+  .btn_individuel p {
+    font-family: gobold;
+    font-style: italic;
+    font-size: 2.5rem;
+    margin: 0;
+    padding-top: 282px;
+  }
 
 
 

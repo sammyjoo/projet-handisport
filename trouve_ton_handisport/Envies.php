@@ -25,7 +25,20 @@ include_once('../includes/header.php');
         JE SOUHAITE FAIRE UN SPORT
     </h1>
     
-    <img src="../assets/img/formulaire/AdobeStock_128823582.jpg" alt="">
+    <div id="button_ev" class="btn_pratiques">
+                <button class="btn_collectif effect">
+                   <p>COLLECTIF</p> 
+                </button>
+
+                <button class="btn_individuel effect">
+                   <p>INDIVIDUEL</p> 
+                </button>
+
+                <button class="btn_importe effect">
+                   <p>PEU IMPORTE</p> 
+                </button>
+            </div>
+  
   
     </div>
 

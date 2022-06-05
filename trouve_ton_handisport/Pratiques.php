@@ -23,9 +23,20 @@ include_once('../includes/header.php');
     <h1>
         JE SOUHAITE PRATIQUER
     </h1>
-    
-    <img src="../assets/img/formulaire/AdobeStock_180468554.jpg" alt="">
-  
+      
+    <div id="button_ev" class="btn_pratiques">
+                <button class="btn_loisir effect">
+                   <p>EN LOISIR</p> 
+                </button>
+
+                <button class="btn_competition effect">
+                   <p>COMPÉTITION</p> 
+                </button>
+
+                <button class="btn_importe effect">
+                   <p>PEU IMPORTE</p> 
+                </button>
+            </div>
     </div>
 
     <div class="groupe_btn">
