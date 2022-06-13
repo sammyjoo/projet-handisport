@@ -21,9 +21,9 @@ include_once('../includes/header.php');
 
         <div class="info_eviter">
             <h1>
-                JE SOUHAITE ÉVITER
+            3 grandes qualités physiques recherchées ou possédées
             </h1>
-            <h3>PLUSIEURS RÉPONSES POSSIBLES</h3>
+            <h3>3 RÉPONSES POSSIBLES</h3>
 
             <div id="button_ev" class="btn_qualites">
                 <button class="btn_physique effect">
